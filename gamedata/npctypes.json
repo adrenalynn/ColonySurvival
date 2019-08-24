@@ -1,7 +1,94 @@
 [
 	{
 		"data" : {
-			"inventoryCapacity" : 0.015,
+			"maskColor1" : "#db8d25"
+		},
+		"keyName" : "pipliz.trader",
+		"npcType" : "worker",
+		"printName" : "Trader"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#6c7521"
+		},
+		"keyName" : "pipliz.cassavafarmer",
+		"npcType" : "worker",
+		"printName" : "Cassava Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#52260b"
+		},
+		"keyName" : "pipliz.cacaofarmer",
+		"npcType" : "worker",
+		"printName" : "Cacao Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#f7d993"
+		},
+		"keyName" : "pipliz.vanillafarmer",
+		"npcType" : "worker",
+		"printName" : "Vanilla Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#cab543"
+		},
+		"keyName" : "pipliz.bananafarmer",
+		"npcType" : "worker",
+		"printName" : "Banana Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#a79b7e"
+		},
+		"keyName" : "pipliz.papyrusfarmer",
+		"npcType" : "worker",
+		"printName" : "Papyrus Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#b8db5a"
+		},
+		"keyName" : "pipliz.sugarcanefarmer",
+		"npcType" : "worker",
+		"printName" : "Sugarcane Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#7c4e29"
+		},
+		"keyName" : "pipliz.coffeebeanfarmer",
+		"npcType" : "worker",
+		"printName" : "Coffeebean Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#c1bdae"
+		},
+		"keyName" : "pipliz.cottonfarmer",
+		"npcType" : "worker",
+		"printName" : "Cotton Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#c65252"
+		},
+		"keyName" : "pipliz.tomatofarmer",
+		"npcType" : "worker",
+		"printName" : "Tomato Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#996b2e"
+		},
+		"keyName" : "pipliz.potatofarmer",
+		"npcType" : "worker",
+		"printName" : "Potato Farmer"
+	},
+	{
+		"data" : {
 			"maskColor1" : "#b34245"
 		},
 		"keyName" : "pipliz.berryfarmer",
@@ -10,7 +97,46 @@
 	},
 	{
 		"data" : {
-			"inventoryCapacity" : 0.05,
+			"maskColor1" : "#719c48"
+		},
+		"keyName" : "pipliz.ricefarmer",
+		"npcType" : "worker",
+		"printName" : "Rice Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#8ea07c"
+		},
+		"keyName" : "pipliz.silkwormfarmer",
+		"npcType" : "worker",
+		"printName" : "Silkworm Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#87461a"
+		},
+		"keyName" : "pipliz.teafarmer",
+		"npcType" : "worker",
+		"printName" : "Tea Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#9c8461"
+		},
+		"keyName" : "pipliz.wheelspinner",
+		"npcType" : "worker",
+		"printName" : "Spinningwheel Worker"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#911616"
+		},
+		"keyName" : "pipliz.constructor",
+		"npcType" : "worker",
+		"printName" : "Construction Worker"
+	},
+	{
+		"data" : {
 			"maskColor1" : "#7a5892"
 		},
 		"keyName" : "pipliz.flaxfarmer",
@@ -19,7 +145,6 @@
 	},
 	{
 		"data" : {
-			"inventoryCapacity" : 0.05,
 			"maskColor1" : "#213c7d"
 		},
 		"keyName" : "pipliz.alkanetfarmer",
@@ -28,7 +153,6 @@
 	},
 	{
 		"data" : {
-			"inventoryCapacity" : 0.05,
 			"maskColor1" : "#5c0a10"
 		},
 		"keyName" : "pipliz.hollyhockfarmer",
@@ -37,12 +161,227 @@
 	},
 	{
 		"data" : {
-			"inventoryCapacity" : 0.05,
 			"maskColor1" : "#aaa231"
 		},
 		"keyName" : "pipliz.wolfsbanefarm",
 		"npcType" : "worker",
 		"printName" : "Wolfsbane Farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#8c4831"
+		},
+		"keyName" : "pipliz.bloomeryjob",
+		"npcType" : "worker",
+		"printName" : "Iron Smelter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#7b7dc2"
+		},
+		"keyName" : "pipliz.npcshopjob",
+		"npcType" : "worker",
+		"printName" : "Grocery Shop Vendor"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#add9a7"
+		},
+		"keyName" : "pipliz.dyer",
+		"npcType" : "worker",
+		"printName" : "Dyer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#8b8b8b"
+		},
+		"keyName" : "pipliz.fineryforgejob",
+		"npcType" : "worker",
+		"printName" : "Steel smelter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#9b645b"
+		},
+		"keyName" : "pipliz.smelter",
+		"npcType" : "worker",
+		"printName" : "Smelter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#574229"
+		},
+		"keyName" : "pipliz.grinder",
+		"npcType" : "worker",
+		"printName" : "Grinder"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#a06b32"
+		},
+		"keyName" : "pipliz.guardbowday",
+		"npcType" : "worker",
+		"printName" : "Day Bow Guard"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#a06b32"
+		},
+		"keyName" : "pipliz.guardbownight",
+		"npcType" : "worker",
+		"printName" : "Night Bow Guard"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#343434"
+		},
+		"keyName" : "pipliz.guardcrossbowday",
+		"npcType" : "worker",
+		"printName" : "Day Crossbow Guard"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#343434"
+		},
+		"keyName" : "pipliz.guardcrossbownight",
+		"npcType" : "worker",
+		"printName" : "Night Crossbow Guard"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#cdcf8d"
+		},
+		"keyName" : "pipliz.guardmatchlockday",
+		"npcType" : "worker",
+		"printName" : "Day Matchlock Guard"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#cdcf8d"
+		},
+		"keyName" : "pipliz.guardmatchlocknight",
+		"npcType" : "worker",
+		"printName" : "Night Matchlock Guard"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#888888"
+		},
+		"keyName" : "pipliz.guardslingerday",
+		"npcType" : "worker",
+		"printName" : "Day Slinger Guard"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#888888"
+		},
+		"keyName" : "pipliz.guardslingernight",
+		"npcType" : "worker",
+		"printName" : "Night Slinger Guard"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#59402e"
+		},
+		"keyName" : "pipliz.gunsmithjob",
+		"npcType" : "worker",
+		"printName" : "Gun smith"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#4a64b8"
+		},
+		"keyName" : "pipliz.kilnjob",
+		"npcType" : "worker",
+		"printName" : "Charcoal burner"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#aa4d0d"
+		},
+		"keyName" : "pipliz.metalsmithjob",
+		"npcType" : "worker",
+		"printName" : "Metal smith"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#3f3939"
+		},
+		"keyName" : "pipliz.minerjob",
+		"npcType" : "worker",
+		"printName" : "Miner"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#e3cd35"
+		},
+		"keyName" : "pipliz.minter",
+		"npcType" : "worker",
+		"printName" : "Minter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#c0a075"
+		},
+		"keyName" : "pipliz.baker",
+		"npcType" : "worker",
+		"printName" : "Baker"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#d0d0d0"
+		},
+		"keyName" : "pipliz.scientist",
+		"npcType" : "worker",
+		"printName" : "Scientist"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#921f1f"
+		},
+		"keyName" : "pipliz.merchant",
+		"npcType" : "worker",
+		"printName" : "Merchant"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#a3a3a3"
+		},
+		"keyName" : "pipliz.stonemason",
+		"npcType" : "worker",
+		"printName" : "Stonemason"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#326075"
+		},
+		"keyName" : "pipliz.tailor",
+		"npcType" : "worker",
+		"printName" : "Tailor"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#1c1a1a"
+		},
+		"keyName" : "pipliz.technologist",
+		"npcType" : "worker",
+		"printName" : "Technologist"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#74422b"
+		},
+		"keyName" : "pipliz.woodcutter",
+		"npcType" : "worker",
+		"printName" : "Woodcutter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#51797b"
+		},
+		"keyName" : "pipliz.crafter",
+		"npcType" : "worker",
+		"printName" : "Crafter"
 	},
 	{
 		"data" : {
@@ -54,7 +393,14 @@
 	},
 	{
 		"data" : {
-			"inventoryCapacity" : 1,
+			"maskColor1" : "#7d9631"
+		},
+		"keyName" : "pipliz.olivefarmer",
+		"npcType" : "worker",
+		"printName" : "Olive Farmer"
+	},
+	{
+		"data" : {
 			"maskColor1" : "#c8b392"
 		},
 		"keyName" : "pipliz.laborer",
@@ -71,7 +417,6 @@
 	},
 	{
 		"data" : {
-			"inventoryCapacity" : 0.05,
 			"maskColor1" : "#93a589"
 		},
 		"keyName" : "pipliz.wheatfarmer",
@@ -203,5 +548,93 @@
 		"keyName" : "pipliz.monstercc",
 		"npcType" : "monster",
 		"printName" : "Monster"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#ce8733"
+		},
+		"keyName" : "pipliz.beekeeper",
+		"npcType" : "worker",
+		"printName" : "Beekeeper"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#8cc066"
+		},
+		"keyName" : "pipliz.watergatherer",
+		"npcType" : "worker",
+		"printName" : "Water gatherer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#8cc066"
+		},
+		"keyName" : "pipliz.waterpump",
+		"npcType" : "worker",
+		"printName" : "Water pump worker"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#41576e"
+		},
+		"keyName" : "pipliz.fishfarmer",
+		"npcType" : "worker",
+		"printName" : "Fish farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#4264d4"
+		},
+		"keyName" : "pipliz.fisherman",
+		"npcType" : "worker",
+		"printName" : "Fisherman"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#a3c84a"
+		},
+		"keyName" : "pipliz.cabbagefarmer",
+		"npcType" : "worker",
+		"printName" : "Cabbage farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#cdced4"
+		},
+		"keyName" : "pipliz.cook",
+		"npcType" : "worker",
+		"printName" : "Cook"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#795024"
+		},
+		"keyName" : "pipliz.barleyfarmer",
+		"npcType" : "worker",
+		"printName" : "Barley farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#b8b095"
+		},
+		"keyName" : "pipliz.chickenfarmer",
+		"npcType" : "worker",
+		"printName" : "Chicken farmer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#95a7b8"
+		},
+		"keyName" : "pipliz.writer",
+		"npcType" : "worker",
+		"printName" : "Writer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#a47839"
+		},
+		"keyName" : "pipliz.printingpress",
+		"npcType" : "worker",
+		"printName" : "Printing press"
 	}
 ]

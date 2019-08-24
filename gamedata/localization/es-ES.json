@@ -1,5 +1,5 @@
 {
-	"coverage" : 100,
+	"coverage" : 98.5726280436608,
 	"hints" : {
 		"0" : "Para la mayoría de las granjas, mayor tamaño significa más producción. Los recolectores de bayas son la excepción a esta regla.",
 		"1" : "Más y diferentes monstruos aparecerán si reclutas más colonos.",
@@ -19,6 +19,146 @@
 		"9" : "Disparar un mosquete consume una bala y pólvora, pero la bolsa de lino que contenía la pólvora a menudo se devuelve a la reserva."
 	},
 	"sentences" : {
+		"bannerclickedpopup" : {
+			"deletebanner" : "Borrar Estandarte",
+			"deletecolony" : "Borrar Colonia",
+			"deletecolonydescription" : "Borrar el último Estandarte de la Colonia eliminará todos los npcs y hará inusable la Colonia. Si deseas continuar, escribe 'delete' abajo.",
+			"header" : "Opciones del Estandarte",
+			"noconfirmationdelete" : "Ignorando el comando de eliminación, ya que no hubo confirmación.",
+			"placementfail" : "No se pudo colocar el Estandarte en esta ubicación"
+		},
+		"bannerplacementpopup" : {
+			"activecolony" : "Colonia activa: {0}",
+			"addbanner" : "Añadir Estandarte",
+			"header" : "Colocación del Estandarte",
+			"movebanner" : "Mover Estandarte",
+			"mustbeleader" : "Debes ser el lider de la colonia para cambiar el Estandarte.",
+			"startcolony" : "Fundar una nueva Colonia"
+		},
+		"biome" : {
+			"arctic" : {
+				"description" : "Colonia basada en el Ártico",
+				"name" : "Colonia Ártica"
+			},
+			"fareast" : {
+				"description" : "Colonia basada en el Lejado Oriente",
+				"name" : "Colonia del Lejano Oriente"
+			},
+			"newworld" : {
+				"description" : "Colonia basada en el Nuevo Mundo",
+				"name" : "Colonia del Nuevo Mundo"
+			},
+			"oldworld" : {
+				"description" : "Colonia basada en el Viejo Mundo",
+				"name" : "Colonia del Viejo Mundo"
+			},
+			"tropics" : {
+				"description" : "Colonia basada en el Trópico",
+				"name" : "Colonia Tropical"
+			}
+		},
+		"chat" : {
+			"colonydied" : "Todos los colonos en {0} fueron asesinados.",
+			"onsciencedone" : "Has investigado la ciencia {0}",
+			"onscienceready" : "¡La ciencia {0} está lista para ser investigada!",
+			"onsciencetraded" : "Obtuviste la ciencia {0} por transacción.",
+			"playerdied" : "Jugador {0} murió."
+		},
+		"colonymanagement" : {
+			"colonysettings" : {
+				"daymonsters" : "Cantidad de monstruos de dia",
+				"enablehappiness" : "Usar Felicidad",
+				"header" : "Ajustes de la Colonia",
+				"nightmonsters" : "Cantidad de monstruos de noche"
+			},
+			"connectedplayers" : "Jugadores conectados",
+			"currentowners" : "Dueños actuales",
+			"diplomacy" : {
+				"incomingdeals" : "Ofertas entrantes",
+				"mainbutton" : "Diplomacia",
+				"mainheader" : "Diplomacia",
+				"outgoingdeals" : "Ofertas salientes",
+				"pendingdeals" : "Ofertas pendientes",
+				"ruleaccept" : "Aceptar",
+				"ruleactive" : "Activar",
+				"rulepending" : "Pendiente",
+				"ruleremove" : "Remover"
+			},
+			"inventoryheader" : "Colonia",
+			"invite" : "Añadir como dueño de la Colonia",
+			"kick" : "Expulsar",
+			"leader" : "Lider",
+			"leave" : "Abandonar colonia",
+			"managecolonies" : {
+				"location" : {
+					"east" : "_MISSING_{0} blocks east",
+					"key" : "_MISSING_Location: ",
+					"north" : "_MISSING_{0} blocks north, ",
+					"south" : "_MISSING_{0} blocks south, ",
+					"west" : "_MISSING_{0} blocks west"
+				},
+				"mainbutton" : "_MISSING_Manage Colonies",
+				"mainheader" : "_MISSING_Manage Colony",
+				"selectheader" : "_MISSING_Select a colony to manage",
+				"siegemode" : "_MISSING_Siege mode:"
+			},
+			"manageheader" : "Colonia",
+			"manageowners" : "Gestión de dueños",
+			"nameedit" : "Editar:",
+			"namefield" : "Nombre:",
+			"recruitauto" : "Auto-reclutar en lugares de trabajo",
+			"recruitautorequirements" : "<i>El Reclutamiento automatico requiere al menos -10 de felicidad, Camas de repuesto, 2 dias de comida y 0 desempleados exactos para trabajar</i>",
+			"recruitmentamount" : "Cantidad de colonos a reclutar:",
+			"recruitmentbutton" : "Reclutar",
+			"recruitmentheader" : "Reclutamiento",
+			"recruittext3" : "Los Colonos requieren 2000 calorias por dia y una Cama.",
+			"recruittext4" : "Reclutar un colono cuesta {0} calorias.",
+			"recruittext5" : "El costo es {0} de lo normal por la Felicidad",
+			"recruittofillbeds" : "Rellenar las camas",
+			"recruittofilljobs" : "Rellenar los trabajos",
+			"resetcolonypriority" : "_MISSING_Reset active colony priorities",
+			"science" : {
+				"incomingdescription" : "{0} compartirá su ciencia contigo",
+				"newagreement" : "Proponer acuerdo de investigación",
+				"outgoingdescription" : "Le provees {0} con tu ciencia",
+				"selectcolony" : "Selecciona una colonia para enviar ciencia"
+			},
+			"selectcolony" : {
+				"headercolonists" : "Colonos",
+				"headercolony" : "Colonia",
+				"headerleader" : "Lider",
+				"headerselect" : "Seleccionar",
+				"nocolonies" : "No hay colonos en la lista",
+				"select" : "Seleccionar"
+			},
+			"settoleader" : "Fijar de lider",
+			"start" : {
+				"create" : "Crear Colonia",
+				"defaultkit" : "Primera vez que el Kit de inicio es usado",
+				"kits" : "Equipos disponibles",
+				"missingkit" : "Falta un Kit colonial de inicio",
+				"name" : "Nombre de la Colonia",
+				"parentcolony" : "Colonia progenitora",
+				"popupheader" : "Creación de Colonia",
+				"usescienceagreement" : "Transferir Ciencia"
+			},
+			"startrecruitment" : "Reclutamiento",
+			"startsettings" : "Ajustes de la Colonia",
+			"switchcolony" : "Cambiar a {0}",
+			"trading" : {
+				"completerule" : "Crear norma",
+				"mainheader" : "Nuevos ajustes para normas comerciales",
+				"newrule" : "Proponer norma comercial",
+				"ruledescription" : "_MISSING_Traders will trade {0} from {1} to {2} if both of the following:",
+				"ruledescriptionlimit" : "_MISSING_ {0} items left to trade.",
+				"ruleincomingdescr" : "_MISSING_Get {0} from {1} if they have more than {2} and we have less than {3}.",
+				"rulemaximumgoal" : "_MISSING_{0} has less than: ",
+				"rulemaximumtraded" : "_MISSING_This deal will send up to the following amount of items in total: ",
+				"ruleminimumthis" : "{0} tiene más de: ",
+				"ruleoutgoingdescr" : "_MISSING_Send {0} to {1} if we have more than {2} and they have less than {3}.",
+				"selectcolony" : "Selecciona una colonia para negociar"
+			}
+		},
 		"connectingscreen" : {
 			"general_1" : "Etapa {0}/{1} - Contraseña requerida",
 			"general_2" : "Etapa {0}/{1} - Tabla de archivos del servidor requeridos",
@@ -47,8 +187,9 @@
 			"sp_3" : "Etapa 3/{0} - Servidor iniciado, Esperando conexión",
 			"sp_alreadyrunning1" : "Un servidor está siendo ejecutado en esta instalacióm. Puede ser que este siendo abandonado. Se reintentará en 5 segundos.",
 			"sp_alreadyrunning2" : "Un servidor ya está ejecutandose. Regresando al menú principal en 5 segundos.",
-			"steam1" : "Etapa 1/{0} - Obtendiendo datos de la conexión desde {1}",
-			"steam2" : "Etapa 2/{0} - Ajustando la conexión del servidor",
+			"steam01" : "Fase 1/{0} - Intentando configurar la conexión TCP a {1}",
+			"steam02" : "Fase 2/{0} - Intentando configurar la conexión a Steam",
+			"steam03" : "Fase 3/{0} - Conexión exitosa, autentificando",
 			"steamfail" : "Error al recibir datos de la conexión. Regresando al menú principal en 5 segundos."
 		},
 		"escapemenu" : {
@@ -61,9 +202,10 @@
 		"firstpersonstats" : {
 			"ammocount" : "Munición:",
 			"bedcount" : "Camas:",
+			"caloriestorage" : "Calorias:",
+			"calorieusage" : "Calorias por dia:",
 			"colonistcount" : "Colonos:",
-			"foodstorage" : "Comida:",
-			"foodusage" : "Comida/día:",
+			"happiness" : "Felicidad:",
 			"laborercount" : "Desempleados:"
 		},
 		"general" : {
@@ -82,6 +224,20 @@
 			"veryhigh" : "Muy alto",
 			"yes" : "Sí"
 		},
+		"happiness" : {
+			"availablefood" : "{0}% disponible para {1}",
+			"availableluxury" : "{0}% disponible para {1}",
+			"baseamount" : "Felicidad existente",
+			"calories" : "Calorias racionadas",
+			"calorieshappy" : "Bien alimentado",
+			"calorieshunger" : "Hambriento",
+			"caloriesstarvation" : "Inanición",
+			"colonistcount" : "Población",
+			"disabledeffect" : "Felicidad desactivada",
+			"recruitmentcost" : "Costo de reclutaje: {0:P0} de lo normal",
+			"sciencespeed" : "Vel. de investigación: {0:P0} de lo normal",
+			"totalhappiness" : "Felicidad total: {0}"
+		},
 		"infomenu" : {
 			"changelog" : "Lista de cambios",
 			"credits" : "Creditos",
@@ -89,6 +245,7 @@
 		},
 		"mainmenu" : {
 			"back" : "Atras",
+			"coop" : "Cooperativo",
 			"info" : "Información",
 			"multiplayer" : "Multijugador",
 			"quit" : "Salir",
@@ -129,24 +286,36 @@
 					"name" : "Radio del Estandarte I"
 				},
 				"bannerradius2" : {
-					"description" : "Incrementa el radio seguro creado a 55 bloques.",
+					"description" : "Incrementa el radio seguro creado a 50 bloques",
 					"name" : "Radio del Estandarte II"
 				},
 				"bannerradius3" : {
-					"description" : "Incrementa el radio seguro creado a 70 bloques.",
+					"description" : "Incrementa el radio seguro creado a 60 bloques",
 					"name" : "Radio del Estandarte III"
 				},
 				"bannerradius4" : {
-					"description" : "Incrementa el radio seguro creado a 85 bloques.",
+					"description" : "Incrementa el radio seguro creado a 70 bloques",
 					"name" : "Radio del Estandarte IV"
 				},
 				"bannerradius5" : {
-					"description" : "Incrementa el radio seguro creado a 100 bloques.",
+					"description" : "Incrementa el radio seguro creado a 80 bloques",
 					"name" : "Radio del Estandarte V"
 				},
-				"bloomery" : {
-					"description" : "Desbloquea la fragua, que puede procesar las menas de hierro y galena.",
-					"name" : "Fragua"
+				"bannerradius6" : {
+					"description" : "Incrementa el radio seguro creado a 90 bloques",
+					"name" : "Radio del Estandarte VI"
+				},
+				"bannerradius7" : {
+					"description" : "Incrementa el radio seguro creado a 100 bloques",
+					"name" : "Radio del Estandarte VII"
+				},
+				"barleyfarmer" : {
+					"description" : "Desbloquea al agricultor de cebada, la cual es usada para alimentar al ganado",
+					"name" : "Cultivo de Cebada"
+				},
+				"beekeeper" : {
+					"description" : "Desbloquea al apicultor, el cual hace (parte de) varios items de lujo y comida",
+					"name" : "Apicultura"
 				},
 				"bronzeanvil" : {
 					"description" : "Desbloquea el yunque de bronce, que puede procesar el bronce.",
@@ -155,6 +324,38 @@
 				"bronzeminting" : {
 					"description" : "Desbloquea las casas de moneda y tiendas. Puede ser usada para comprar semillas, barro y artículos misceláneos.",
 					"name" : "Casas de moneda y tiendas"
+				},
+				"cabbagefarmer" : {
+					"description" : "Desbloquea al agricultor de repollo",
+					"name" : "Cultivo de Repollo"
+				},
+				"cacao" : {
+					"description" : "Desbloquea el cultivo de cacao",
+					"name" : "Cacao"
+				},
+				"candles" : {
+					"description" : "Desbloquea la producción de velas para un apicultor",
+					"name" : "Vela"
+				},
+				"chickenfarmer" : {
+					"description" : "Desbloque al Avicultor",
+					"name" : "Avicultura"
+				},
+				"chocolate" : {
+					"description" : "Desbloquea la producción de chocolate",
+					"name" : "Chocolate"
+				},
+				"coffee" : {
+					"description" : "Desbloquea el procesado de granos de café en café en la cocina",
+					"name" : "Café"
+				},
+				"coffeebeans" : {
+					"description" : "Desbloquea al agricultor de granos de café",
+					"name" : "Cultivo de granos de café"
+				},
+				"colonykit" : {
+					"description" : "Permite construir el Kit colonial de inicio",
+					"name" : "Colonización"
 				},
 				"constructionbuilder" : {
 					"description" : "Desbloquea las áreas del constructor para el obrero",
@@ -208,13 +409,25 @@
 					"description" : "Desbloquea las áreas de excavación especial para el obrero",
 					"name" : "Excavador especial"
 				},
+				"cook" : {
+					"description" : "Desbloquea la cocina, la cual es para hacer comida para tus colonos",
+					"name" : "Cocina"
+				},
+				"cookies" : {
+					"description" : "Desbloquea la producción de galletas",
+					"name" : "Galletas"
+				},
+				"cottontowel" : {
+					"description" : "Desbloquea el item lujoso paño de algodón",
+					"name" : "Paño de algodón"
+				},
 				"crossbow" : {
 					"description" : "Desbloquea la ballesta, un arma más poderosa que el arco.",
 					"name" : "Ballesta"
 				},
-				"crossbowbolt" : {
-					"description" : "Desbloquea los virotes, munición de la ballesta.",
-					"name" : "Virote"
+				"diamondprocessing" : {
+					"description" : "Desbloquea el procesamiento de diamantes",
+					"name" : "Diamantes"
 				},
 				"dyertable" : {
 					"description" : "Desbloquea al pintor, quien puede usar hierbas para pintar ciertos bloques y linternas.",
@@ -224,113 +437,119 @@
 					"description" : "Desbloquea la forja fina, la cual usa coques para crear acero y lingotes de oro.",
 					"name" : "Ferrería"
 				},
+				"fisherman" : {
+					"description" : "Desbloquea al pescador",
+					"name" : "Pesca"
+				},
 				"flaxfarming" : {
-					"description" : "Desbloquea los agricultores de lino, requeridos para producir lino. Obtienes 100 seminllas de lino.",
+					"description" : "Desbloquea los agricultores de lino, requeridos para producir lino. Obtienes 100 semillas de lino.",
 					"name" : "Cultivo de lino"
 				},
-				"gunpowder" : {
-					"description" : "Desbloquea la pólvora, un explosivo poderoso.",
-					"name" : "Pólvora"
+				"foofoo" : {
+					"description" : "Desbloquea la cocina de foo foo",
+					"name" : "Foo foo"
+				},
+				"fur" : {
+					"description" : "Desbloquea el procesado de pelaje",
+					"name" : "Pelaje"
+				},
+				"glider" : {
+					"description" : "Una revolucionaria forma de transporte. Esencial para llegar a nuevas tierras.",
+					"name" : "Planeador"
 				},
 				"gunsmithshop" : {
 					"description" : "Desbloquea al armero, quien procesa la pólvora y crea armas de fuego.",
 					"name" : "Armería"
 				},
-				"healthregensize1" : {
-					"description" : "Incrementa la cantidad de regeneración de salud de 30 a 50",
-					"name" : "Regeneración de salud I"
-				},
-				"healthregensize2" : {
-					"description" : "Incrementa la cantidad de regeneración de salud de 50 a 65",
-					"name" : "Regeneración de salud  II"
-				},
-				"healthregensize3" : {
-					"description" : "Incrementa la cantidad de regeneración de salud de 65 a 85",
-					"name" : "Regeneración de salud  III"
-				},
-				"healthregensize4" : {
-					"description" : "Incrementa la cantidad de regeneración de salud de 85 a 100",
-					"name" : "Regeneración de salud  IV"
-				},
-				"healthregenspeed1" : {
-					"description" : "Incrementa la velocidad de la regeneración de salud de 0.5 HP/s a 1 HP/s",
-					"name" : "Velocidad de la regeneración de salud I"
-				},
-				"healthregenspeed2" : {
-					"description" : "Incrementa la velocidad de la regeneración de salud de 1 HP/s a 2 HP/s",
-					"name" : "Velocidad de la regeneración de salud II"
-				},
-				"healthregenspeed3" : {
-					"description" : "Incrementa la velocidad de la regeneración de salud de 2 HP/s a 3 HP/s",
-					"name" : "Velocidad de la regeneración de salud III"
-				},
-				"healthregenspeed4" : {
-					"description" : "Incrementa la velocidad de la regeneración de salud de 3 HP/s a 4 HP/s",
-					"name" : "Velocidad de la regeneración de salud IV"
-				},
-				"healthsize1" : {
-					"description" : "Incrementa los HP máximos a 125",
-					"name" : "Salud I"
-				},
-				"healthsize2" : {
-					"description" : "Incrementa los HP máximos a 150",
-					"name" : "Salud II"
-				},
-				"healthsize3" : {
-					"description" : "Incrementa los HP máximos a 175",
-					"name" : "Salud III"
-				},
-				"healthsize4" : {
-					"description" : "Incrementa los HP máximos a 200",
-					"name" : "Salud IV"
-				},
 				"herbfarming" : {
 					"description" : "Desbloquea tres agricultores de hierba distintos. Las hierbas pueden ser usadas por el Pintor.",
 					"name" : "Cultivo de hierbas"
 				},
-				"kiln" : {
-					"description" : "Desbloquea los kilns. Requeridos para crear combustible avanzado como el carbón.",
-					"name" : "Kiln"
+				"ironsmelting" : {
+					"description" : "Desbloquea el Kiln y el fraguado.",
+					"name" : "Fundición de hierro"
 				},
 				"lantern" : {
 					"description" : "Desbloquea la producción de linternas en el yunque y la producción de linternas coloradas con el pintor.",
 					"name" : "Linternas"
 				},
+				"liferesearch1" : {
+					"description" : "Incrementa el total de vida, y cantidad y velocidad de regeneración",
+					"name" : "Incremento de Vida I"
+				},
+				"liferesearch2" : {
+					"description" : "Incrementa el total de vida, y cantidad y velocidad de regeneración",
+					"name" : "Incremento de Vida II"
+				},
+				"liferesearch3" : {
+					"description" : "Incrementa el total de vida, y cantidad y velocidad de regeneración",
+					"name" : "Incremento de Vida III"
+				},
+				"liferesearch4" : {
+					"description" : "Incrementa el total de vida, y cantidad y velocidad de regeneración",
+					"name" : "Incremento de Vida IV"
+				},
 				"matchlockgun" : {
 					"description" : "Desbloquea el arcabuz, un arma de fuego primitiva.",
 					"name" : "Arcabuz"
 				},
-				"quarterblockdyer" : {
-					"description" : "Desbloquea la producción de cuarto de bloque teñidos por el pintor, pueden ser usados para construir escaleras.",
-					"name" : "Cuarto de bloque teñido"
+				"newworldmeal" : {
+					"description" : "Desbloquea comida del Nuevo Mundo",
+					"name" : "Comida del Nuevo Mundo"
 				},
-				"quarterblocksplittingstump" : {
-					"description" : "Desbloquea la producción de cuarto de bloque de madera colorida en el Tronco para leña, puede ser usada para construir escaleras.",
-					"name" : "Cuarto de bloque de madera"
+				"olivefarmer" : {
+					"description" : "Dessbloquea al agricultor de olivo, una parte de la creación de comidas más complejas",
+					"name" : "Cultivo de Olivo"
 				},
-				"quarterblockstonemason" : {
-					"description" : "Desbloquea la producción de cuarto de bloque gris por el albañil, puede ser usada para construir escaleras.",
-					"name" : "Cuarto de bloque gris"
+				"papyrus" : {
+					"description" : "Desbloquea la producción de papiro",
+					"name" : "Papiro"
+				},
+				"porcelain" : {
+					"description" : "Desbloquea la producción de porcelana",
+					"name" : "Porcelana"
+				},
+				"printingpress" : {
+					"description" : "Desbloquea la imprenta, permite la divulgación de libros con mayor facilidad",
+					"name" : "Imprenta"
+				},
+				"ricefarmer" : {
+					"description" : "Desbloquea el cultivo de arroz",
+					"name" : "Cultivo de arroz"
 				},
 				"sciencebagadvanced" : {
 					"description" : "Desbloquea la bolsa de ciencia avanzada, usada para investigaciones avanzadas.",
-					"name" : "Bolsa de ciencia avanzada"
+					"name" : "Investigación avanzada"
 				},
 				"sciencebagbasic" : {
 					"description" : "Desbloquea la bolsa de ciencia básica, usada para investigaciones básicas.",
-					"name" : "Bolsa de ciencia básica"
+					"name" : "Investigación básica"
 				},
 				"sciencebagcolony" : {
-					"description" : "Desbloquea la bolsa de ciencia colonial, usada para investigaciones relacionadas con la colonia.",
-					"name" : "Bolsa de ciencia colonial"
+					"description" : "Desbloquea la bolsa colonial, usada para investigaciones relacionadas con la colonia.",
+					"name" : "Investigación colonial"
 				},
 				"sciencebaglife" : {
-					"description" : "Desbloquéalas, son necesarias para investigar mejoras relacionadas con la salud.",
-					"name" : "Bolsa de ciencia de la vida"
+					"description" : "Desbloquea la bolsa de salud, son necesarias para investigar mejoras relacionadas con la salud.",
+					"name" : "Investigación de salud"
 				},
 				"sciencebagmilitary" : {
-					"description" : "Desbloquea la bolsa de ciencia militar, usada para investigaciones militar.",
-					"name" : "Bolsa de ciencia militar"
+					"description" : "Desbloquea la bolsa militar, usada para investigaciones militar.",
+					"name" : "investigación militar"
+				},
+				"silkwormfarmer" : {
+					"description" : "Desbloquea la cría de gusanos de seda",
+					"name" : "Cría de gusanos de seda"
+				},
+				"spinningwheel" : {
+					"fareast" : {
+						"description" : "Desbloquea la hiladora",
+						"name" : "Hiladora"
+					},
+					"newworld" : {
+						"description" : "Desbloquea la hiladora",
+						"name" : "Hiladora"
+					}
 				},
 				"splittingstump" : {
 					"description" : "Desbloquea el tronco para leña. Pueden ser usados para crear leña más rápido que un banco de trabajo.",
@@ -340,17 +559,53 @@
 					"description" : "Desbloquea el Albañil, quien puede crear diferentes variedades de ladrillos.",
 					"name" : "Banco de trabajo del Albañil"
 				},
+				"sugarcane" : {
+					"description" : "Desbloque el cultivo de caña de azúcar",
+					"name" : "Caña de azúcar"
+				},
 				"tailorshop" : {
 					"description" : "Desbloquéalo, es quien transforma las plantas de lino en lino.",
 					"name" : "Sastre"
 				},
+				"teafarmer" : {
+					"description" : "Desbloquea el cultivo de té",
+					"name" : "Té"
+				},
 				"technologisttable" : {
 					"description" : "Desbloquéalo, es quien crea bolsas de ciencia.",
-					"name" : "Tecnólogo"
+					"name" : "Investigador"
+				},
+				"trader" : {
+					"description" : "Desbloquea los npcs mercaderes, los cuales aceleran las transacciones con otras colonias",
+					"name" : "Mercaderes"
+				},
+				"vanilla" : {
+					"description" : "Desbloquea el cultivo de vainilla",
+					"name" : "Vainilla"
+				},
+				"watergatherer" : {
+					"description" : "El aguador, rellena baldes con agua en aguas abiertas",
+					"name" : "Aguador"
+				},
+				"waterpump" : {
+					"description" : "Desbloquea la bomba de agua, permitiendo reunir agua en cualquier lugar aunque a paso lento",
+					"name" : "Bomba de agua"
+				},
+				"waxtablet" : {
+					"description" : "Desbloquea la tablilla de cera, un producto de lujo",
+					"name" : "Tablilla de cera"
 				},
 				"wheatfarming" : {
 					"description" : "Un método de producción de comida más complejo, solamente para colonias avanzadas. Desbloquea los agricultores de trigo, la moledora y el horno. Obtienes 400 semillas de trigo.",
 					"name" : "Producción de pan"
+				},
+				"wintercoat" : {
+					"description" : "Desbloquea la producción de abrigo de invierno",
+					"name" : "Abrigo de invierno"
+				},
+				"writer" : {
+					"description" : "Desbloquea al escritor, apto para porducir libros divertidos",
+					"name" : "Escritura"
 				}
 			}
 		},
@@ -361,52 +616,68 @@
 				"header" : "Menú del área",
 				"remove" : "Remover área"
 			},
-			"banner" : {
-				"button" : "Reclutar un colono",
-				"description" : "Cada colono requiere 5 unidades de comida por dia y una cama. Reclutar un colono cuesta 50 unidades de comida.",
-				"gotoscience" : "Menú de ciencia",
-				"header" : "Administración de la colonia",
-				"resetbutton" : "Reiniciar colonia",
-				"resettooltipa" : "",
-				"resettooltipb" : "Esto eliminará a todos tus colonos y campos de trabajo.",
-				"resettooltipc" : "También te proporcionará un nuevo inventario y reservas."
-			},
 			"death" : {
 				"description" : "Has muerto.",
 				"respawn" : "Revivir"
 			},
 			"inventory" : {
-				"craftingstockpile" : "Artesanía y Reservas",
-				"foodvalue" : "Valor de la comida: ",
+				"availableamount" : "En reserva: {0}",
+				"calorievalue" : "{0} calorias por item",
+				"craftingstockpile" : "Artesanía y Reserva",
+				"distributionhappyperitem" : "Felicidad por item: {0}",
+				"distributionpercolonist" : "Item diario por colono: {0}",
+				"distributionplanned" : "Aumento de felicidad: {0}",
+				"distributionreached" : "Distribución: {0}%",
+				"distributiontotal" : "Items totales diarios: {0}",
+				"happinessvalue" : "Valor de felicidad:",
+				"happy" : {
+					"header" : "Felicidad"
+				},
 				"madeintooltip" : "Hecho en:",
+				"noactivecolony" : "¡Colonias inactivas!",
 				"science" : {
 					"available" : "Disponible",
-					"completed" : "Completado",
-					"dependencies" : "Tecnologías requeridas:",
+					"cancel" : "Cancelar",
+					"completed" : "Finalizado",
+					"completeunlock" : "Completar",
+					"conditioncolonistcount" : "Colonos",
+					"conditioncolonistcountdescription" : "Colonos requeridos",
+					"conditionhappiness" : "Felicidad requerida",
+					"conditionhappinessdescription" : "Mínima felicidad neta requerida",
+					"conditionscientistrequires" : "Requiere {0}",
+					"dependencies" : "Requiere investigar:",
 					"header" : "Ciencia",
-					"iterations" : "Ciclo de investigación: {0} de {1}",
-					"placelab" : "Coloca un laboratorio de ciencia para reclutar un científico",
-					"requirements" : "Para un ciclo de investigación se requiere:",
-					"researchactive" : "Investigando: {0}",
-					"researchselected" : "Seleccionar",
+					"recipeunlocknpcgroup" : "Desbloquea {0}",
+					"recipeunlockoriginjob" : "Hecho en {0}",
+					"recipeunlockoriginplayer" : "Hecho por el jugador",
+					"recipeunlocks" : "Receta desbloquea:",
+					"startscience" : "Investigar",
 					"unavailable" : "No disponible"
 				},
 				"searchfieldplaceholder" : "Escribe el filtro de búsqueda...",
 				"tooltip" : {
 					"and" : "y",
 					"instockpile" : "En la reserva",
-					"needs" : "Necesitas: "
+					"needs" : "Necesitas: ",
+					"nothing" : "Nada"
 				}
+			},
+			"itemselector" : {
+				"description" : "Selecciona un tipo de item para usar",
+				"header" : "Selección de item"
 			},
 			"limits" : {
 				"description" : "Los colonos trabajarán hasta alcanzar el limite de la reserva.",
 				"hoverpriority" : {
 					"a" : "Prioridad de elaboración",
-					"b" : "Recipientes con un +++ de prioridad son creados primero.\n Recipientes con un + de prioridad es creados último."
+					"b" : "Recipientes con un +++ de prioridad son creados primero.\n Recipientes con un + de prioridad es creado al último."
 				},
 				"pipliz" : {
 					"baker" : "Límite de cocción",
+					"beekeeper" : "Límite de apicultor",
 					"bloomeryjob" : "Límite de fraguado",
+					"chickenfarmer" : "Límite de avicultor",
+					"cook" : "Límite de cocina",
 					"crafter" : "Límite de artesanía",
 					"dyer" : "Limite de pintura",
 					"fineryforgejob" : "Límite de forjado de lujo",
@@ -416,11 +687,16 @@
 					"merchant" : "Límite de compra",
 					"metalsmithjob" : "Límite de forjado",
 					"minter" : "Límite de creación",
+					"printingpress" : "Límite de impresión",
 					"smelter" : "Límite de fundición",
 					"stonemason" : "Limite de albañilería",
 					"tailor" : "Límite de sastre",
 					"technologist" : "Límite de tecnología",
-					"woodcutter" : "Límite de leñado"
+					"watergatherer" : "Límite de aguador",
+					"waterpump" : "Límite de bombeo de agua",
+					"wheelspinner" : "Límite de hiladora",
+					"woodcutter" : "Límite de leñado",
+					"writer" : "Límite de escritura"
 				}
 			},
 			"quickstart" : {
@@ -449,10 +725,17 @@
 			},
 			"tooljob" : {
 				"alkanetfarmer" : "Agricultor de Alkanna",
-				"alkanetfarmertool" : "Herramienta para Agricultores de alkanna",
-				"alkanetfarmertooltip" : "Necesitas: Semillas de alkanna\nColócala sobre césped o barro",
+				"alkanetfarmertool" : "Herramienta de Agricultor de Alkanna",
+				"bananafarmb" : "Para... platanos",
+				"bananafarmer" : "Platanero",
+				"bananatool" : "Herramienta de Platanero",
+				"barleya" : "Usado principalmente para alimentar al ganado",
+				"barleyfarmer" : "Agricultor de cebada",
+				"barleyfarmertool" : "Herramienta de Agricultor de cebada",
+				"beekeeper" : "Apicultor",
+				"beekeepera" : "Esencial para algunos articulos de lujo ",
+				"beekeepertool" : "Herramienta de Apicultor",
 				"berrya" : "Comida rápida y fácil, ¡inicia con ella!",
-				"berryb" : "Necesitas: Semillas de bayas\nColócala sobre césped o barro",
 				"berryfarmer" : "Agricultor de bayas",
 				"berryfarmertool" : "Herramienta para Agricultores de bayas",
 				"bow" : "Arco",
@@ -460,29 +743,58 @@
 				"buildera" : "Rellena un área del mundo",
 				"builderarea" : "Área de construcción",
 				"builderb" : "Abre el menú para seleccionar el tipo, después selecciona el área a rellenar",
+				"cabbagea" : "Esencial para algunas comidas lujosas",
+				"cabbagefarmer" : "Agricultor de Repollo",
+				"cabbagefarmertool" : "Herramienta de Agricultor de Repollo",
+				"cacaob" : "Cacao",
+				"cacaofarmer" : "Agricultor de Cacao",
+				"cacaofarmertool" : "Herramienta de Agricultor de Cacao",
+				"cassavab" : "Carbohidratos tropicales",
+				"cassavafarmer" : "Agricultor de Mandioca",
+				"cassavatool" : "Herramienta de Agricultor de Mandioca",
+				"chickenfarmer" : "Avicultor",
+				"chickenfarmera" : "Las gallinas dan huevos, carne y plumas",
+				"chickenfarmertool" : "Herramienta de Avicultor",
+				"cofeeb" : "Granos de café",
+				"coffeebeanfarmer" : "Agricultor de café",
+				"coffeebeanfarmertool" : "Herramienta de Agricultor de café",
 				"construction" : "Construcción",
 				"construction1" : "Déjalos hacer el trabajo",
 				"construction2" : "Esto abrirá otro menú, donde tú puedes seleccionar el tipo de construcción",
 				"constructionjob" : "Trabajo de construcción",
 				"constructionjoba" : "Contrata un obrero",
 				"constructionjobb" : "Colocar después un área de construcción",
+				"cottonb" : "Convertido en paños",
+				"cottonfarmer" : "Agricultor de Algodón",
+				"cottontool" : "Herramienta Agricultor de Algodón",
 				"coversarea" : "Cubrir el área existente",
 				"crossbow" : "Ballesta",
-				"crossbowtooltip" : "Daño: 300 HP\nRango: 25 bloques\nTiempo de recarga: 8 segundos",
+				"crossbowtooltip" : "Daño: 300 HP\nRango: 25 bloques\nRecarga: 8 segundos",
 				"description" : "Selecciona el tipo de área que deseas crear.",
 				"diggera" : "Excava un área del mundo",
 				"diggerarea" : "Área de excavación",
-				"diggerb" : "Seleeciona el área a excavar",
+				"diggerb" : "Selecciona el área a excavar",
 				"diggerspecial" : "Área de excavación especial",
 				"diggerspeciala" : "Elimina un tipo especifico en un área",
 				"diggerspecialarea" : "área de excavación especial",
 				"diggerspecialb" : "Selecciona desde el área a eliminar",
-				"flaxb" : "Necesitas: Semillas de lino\nColócala sobre césped o barro",
+				"fareast" : "Lejano Oriente",
+				"fareasta" : "Trabajos específicos para la región del Lejano Oriente",
+				"fareastb" : "Investiga la colonización antes de intentar esto",
+				"fisherman" : "Pescador",
+				"fishermana" : "Pescará... peces",
+				"fishermantool" : "Herramienta de Pescador",
+				"fishfarmer" : "Piscicultor",
+				"fishfarmera" : "Más lento que el Pescador, pero no necesita tener agua cerca.",
+				"fishfarmertool" : "Herramienta de Piscicultor",
 				"flaxfarmer" : "Agricultor de lino",
 				"flaxfarmertool" : "Herramienta para Agricultores de lino",
 				"flaxherbfarming" : "Lino y hierbas",
 				"flaxherbfarminga" : "Agricultores de lino y hierbas",
 				"flaxherbfarmingb" : "Esto abrirá otro menú, donde tú puedes seleccionar el tipo de agricultor.",
+				"food" : "Agricultura",
+				"food1" : "Producción de comida",
+				"food2" : "Varias formas de prevenir de que tus colonos mueran de inanición",
 				"forester" : "Forestal",
 				"forestera" : "Plantas y árboles",
 				"foresterb" : "Necesitas: Pimpollos y una hacha\nColócala sobre césped o barro",
@@ -492,10 +804,9 @@
 				"guardb" : "Esto abrirá otro menú",
 				"guardsday" : "Guardia diurno",
 				"guardsnight" : "Guardia nocturno",
-				"header" : "Lista de comandos",
+				"header" : "Trabajos",
 				"hollyhockfarmer" : "Agricultor de Alcea",
 				"hollyhockfarmertool" : "Herramienta para Agricultores de alcea",
-				"hollyhockfarmertooltip" : "Necesitas: Semillas de alcea\nColócala sobre césped o barro.",
 				"insidearea" : "No se puede colocar dentro del área",
 				"jobbowday" : "Arquero diurno",
 				"jobbownight" : "Arquero nocturno",
@@ -511,46 +822,76 @@
 				"minera" : "Minar menas",
 				"minerb" : "Necesitas: Pico\nExcava y coloca encima de las menas o piedras oscuras",
 				"minertool" : "Herramienta para Mineros",
-				"missingscience" : "<color=red>Requiere '{0}' ser desbloqueado primero.</color>",
+				"missingscience" : "<color=red>'{0}' no ha sido investigada.</color>",
+				"newworld" : "Nuevo Mundo",
+				"newworlda" : "Trabajos específicos para la región del Nuevo Mundo",
+				"newworldb" : "Investiga la colonización antes de intentar esto",
 				"noconstructionareanearby" : "No hay área de construcción cerca",
 				"notarable" : "No es arable",
 				"notflat" : "No es plano",
-				"notool" : "No has seleccionado herramienta",
+				"nowaternearby" : "No hay agua cerca",
 				"occupiedblocks" : "Ocupado por bloques",
-				"selectitem" : "Selecciona un tipo de ítem para usar",
+				"olivefarmer" : "Agricultor de Olivo",
+				"olivefarmera" : "Planta olivos y recolecta las aceitunas",
+				"olivefarmertool" : "Herramienta de Agricultor de olivo",
+				"papyrusb" : "Papiro",
+				"papyrusfarmer" : "Agricultor de Papiro",
+				"papyrustool" : "Herramienta de Agricultor de Papiro",
+				"potatob" : "Carbohidratos del Nuevo Mundo",
+				"potatofarmer" : "Agricultor de papas",
+				"potatotool" : "Herramienta de Agricultos de papas",
+				"requiresarable" : "Requiere tierra arable",
+				"riceb" : "Carbohidratos del Lejano Oriente",
+				"ricefarmer" : "Agricultor de Arroz",
+				"ricefarmertool" : "Herramienta de Agricultor de Arroz",
+				"silkwormb" : "Usado para hacer seda eventualmente",
+				"silkwormfarmer" : "Ganadero de Gusanos de seda",
+				"silkwormfarmertool" : "Herramienta de Ganadero de Gusanos de seda",
 				"slinger" : "Honda",
 				"slingertooltip" : "Daño: 50 HP\nRango: 12 bloques\nTiempo de recarga: 3 segundos",
+				"sugarcaneb" : "Caña de azúcar",
+				"sugarcanefarmer" : "Agricultor de Caña de azúcar",
+				"sugarcanetool" : "Herramienta de Agricultor de Caña de Azúcar",
+				"teafarmer" : "Agricultor de Té",
+				"teafarmerb" : "Produce hojas para hacer Té",
+				"teafarmertool" : "Herramienta de Agricultor de Té",
+				"tomatob" : "Tomates",
+				"tomatofarmer" : "Agricultor de Tomates",
+				"tomatotool" : "Herramienta de Agricultor de Tomates",
 				"toolarge" : "Muy grande",
 				"toonarrow" : "Muy estrecho para los árboles",
 				"toosmall" : "Muy pequeño",
-				"wheatb" : "Necesitas: Semillas de trigo\nColócala sobre césped o barro",
+				"tropics" : "Trópico",
+				"tropicsa" : "Trabajos específicos para la región tropical",
+				"tropicsb" : "Investiga la colonización antes de intentar esto",
+				"vanillab" : "Vainilla",
+				"vanillafarmer" : "Agricultor de Vainilla",
+				"vanillafarmertool" : "Herramienta de Agricultor de Vainilla",
+				"wateradjacent" : "Requiere agua adyacente en su lugar de trabajo",
+				"watergatherer" : "Aguador",
+				"watergatherera" : "Rellena los baldes en las aguas abiertas",
+				"watergatherertool" : "Herramienta de Aguador",
 				"wheatfarmer" : "Agricultor de trigo",
-				"wheatfarmertool" : "Herramienta para Agricultores de trigo",
-				"wolfsbanefarmer" : "Agricultor de Aconitum",
-				"wolfsbanefarmertool" : "Herramienta para Agricultores de Aconitum",
-				"wolfsbanefarmertooltip" : "Necesitas: Semillas de aconitum\nColócala sobre césped o barro"
-			},
-			"worldsettings" : {
-				"daymonsters" : "Monstruos de día",
-				"header" : "Configuración del mundo",
-				"nightmonsters" : "Monstruos de noche"
+				"wheatfarmertool" : "Herramienta de Agricultor de trigo",
+				"wolfsbanefarmer" : "Agricultor de Acónito",
+				"wolfsbanefarmertool" : "Herramienta de Agricultor de Acónito"
 			}
 		},
 		"quickstart" : {
 			"page1" : {
 				"description" : "¡Bienvenido a Colony Survival!",
-				"header" : "Básico",
+				"header" : "Lo Básico",
 				"text1" : "El Estandarte es el centro de tu colonia. Aprieta '2' para plantarla. Clic derecho al Estandarte para reclutar colonos. La Herramienta del Estandarte ilumina el área donde aparecen los monstruos en rojo.",
-				"text2" : "Necesitas comida y camas para reclutar colonos. Ellos necesitan comer para sobrevivir. Asegúrate de tener comida suficiente o ¡se morirán de hambre!",
-				"text3" : "Aprieta \"I\" para crear una cama. Solo puedes crear cosas con los objetos de las ranuras del menú inferior. Los colonos solo pueden usar objetos de las reservas. Ellos acceden a las reservas con las cajas.",
-				"text4" : "¡Los monstruos atacaran tu colonia en la noche! Usa la Tabla de Comandos para colocar guardias. Aprieta ‘1’ y clic para seleccionarlo. Aprieta ‘R’ para rotarlo en cierto bloque."
+				"text2" : "Necesitas comida y camas para reclutar colonos. Ellos necesitan comer para sobrevivir. Asegúrate de tener comida suficiente o, ¡se morirán de hambre!",
+				"text3" : "Aprieta \"I\" para crear una cama. Los items a la izquierda pueden ser creados haciendo clic sobre ellos. Los colonos pueden usar items de tu reserva. Ellos pueden acceder a las reservas usando cajas.",
+				"text4" : "¡Los monstruos atacaran tu colonia en la noche! Usa la Tabla de Trabajos para colocar guardias. Aprieta ‘1’ y clic para seleccionarlo. Aprieta ‘R’ para rotarlo en cierto bloque."
 			},
 			"page2" : {
-				"description" : "Necesitas comida para reclutar y alimentar colonos.",
-				"header" : "Producción de comida",
-				"text1" : "Usa la tabla de comandos (aprieta 1) para crear un agricultor de bayas. Clic derecho sobre un bloque de césped, elige el trabajo mencionado y crea al agricultor. Clic izquierdo para elegir el trabajo. ",
-				"text2" : "Producir panes es complicado, pero es un método efectivo de obtener comida. Comienza creando el trabajo de agricultor de trigo. Después de dos noches el trigo crecerá completamente y los agricultores la extraerán. ",
-				"text3" : "Después de eso, vas a tener que crear dos personas trabajando en una moledora y otro en un horno. El moledor convertirá el trigo en harina. El panadero usará el horno para hornear pan."
+				"description" : "Pan y lujos son esenciales para el crecimiento de tu colonia",
+				"header" : "Comida y felicidad",
+				"text1" : "Cada colono que reclutes, incrementa la infelicidad total. Distribuye los items de felicidad para mantener a tus colonos felices. Ajusta el deslizador en el menú de felicidad (aprieta \"I\") para elegir cuales items quieres distribuir.",
+				"text2" : "Cambiando los alimentos puedes distribuir la cantidad de calorias que reciben tus colonos. Menos de 1000 calorias causan Inanición; menos de 2000 baja la felicidad; más de 2000 incrementa la felicidad.",
+				"text3" : "Los colonos visitaran al Tendero o el Estandarte una vez al día para recibir sus items de felicidad. Las colonias grandes necesitarán múltiples tiendas para reducir la distancia caminando."
 			},
 			"page3" : {
 				"description" : "¡Defiende a tu colonia de los monstruos que acechan en la noche!",
@@ -558,24 +899,41 @@
 				"text1" : "Por la noche, los monstruos atacaran a tu colonia. Coloca guardias, construye murallas y cava fosos defender tu colonia. Los monstruos no pueden escalar dos bloques.",
 				"text2" : "¡No aísles tu colonia! Si no hay camino hacia tu Estandarte, se activará el 'Modo asedio'. Durante el modo asedio la comida se consume más rápido.",
 				"text3" : "¡La cantidad de monstruos incrementa cuando la cantidad de colonos crece! \t¡Asegúrate de que tus guardias tengan suficiente munición!",
-				"text4" : "Derrotar monstruos fuertes te desbloqueará nuevas armas en el Laboratorio de ciencias. Estas infligen más daño y pueden golpear enemigos desde una larga distancia."
+				"text4" : "Derrotar monstruos fuertes te desbloqueará nuevas armas en el Laboratorio científico. Estas infligen más daño y pueden golpear enemigos desde una larga distancia."
 			},
 			"page4" : {
-				"description" : "Las menas son un requisito fundamental para tu colonia.",
+				"description" : "Las minerales son un requisito fundamental para tu colonia.",
 				"header" : "Minería",
 				"text1" : "En la profundidad de la corteza terrestre, puedes encontrar toda clase de menas. Excava hacia abajo o dentro de una montaña para encontrarlos.",
-				"text2" : "Clic derecho en las menas o bloques oscuros de piedra con la Tabla de comando para fijar un minero a trabajar. No olvides colocar una caja cerca.",
-				"text3" : "Coloca una fundidora para reclutar un colono desempleado como un fundidor. Él usará la leña para fundir el cobre con el estaño y convertirlos en lingotes de bronce.",
-				"text4" : "Los colonos usan bancos de trabajo y yunques para crear metales en productos útiles. Usa el laboratorio de ciencias para desbloquear el yunque."
+				"text2" : "Clic derecho en las menas o bloques oscuros de piedra con la Tabla de Trabajo para fijar un minero a trabajar. No olvides colocar una caja cerca.",
+				"text3" : "Coloca una fundidora, recluta un colono desempleado para que trabaje como fundidor. Él usará la leña para fundir el cobre con el estaño y convertirlos en lingotes de bronce.",
+				"text4" : "Los colonos usan bancos de trabajo y yunques para crear metales en productos útiles. Usa el laboratorio científico para desbloquear el yunque."
 			},
 			"page5" : {
 				"description" : "¡Solo las colonias más pequeñas pueden prescindir sin la ciencia!",
 				"header" : "Investigación científica",
-				"text1" : "Coloca el laboratorio de ciencia para reclutar un científico. Clic derecho en el laboratorio o usa la pestaña del inventario para ver el menú de ciencia.",
+				"text1" : "Coloca el laboratorio científico para reclutar un científico. Clic derecho en el laboratorio o usa la pestaña del inventario para ver el menú de ciencia.",
 				"text2" : "Selecciona la investigación para dejar al científico desbloquearla. El trabajará una cierta cantidad de ciclos para completar la investigación. Cada ciclo consume ingredientes.",
-				"text3" : "Niveles altos requieren bolsas de ciencia. Recluta un tecnólogo para crearlas. Las bolsas pueden ser reutilizadas varias veces.",
-				"text4" : "Los científicos pueden trabajar juntos para aumentar la velocidad de la investigación. ¡Coloca más laboratorios de ciencia para reclutar científicos extras!"
+				"text3" : "Niveles altos requieren bolsas de ciencia. Recluta un investigador para crearlas. Las bolsas pueden ser reutilizadas varias veces.",
+				"text4" : "Los científicos pueden trabajar juntos para aumentar la velocidad de la investigación. ¡Coloca más laboratorios científicos para reclutar científicos extras!"
+			},
+			"page6" : {
+				"description" : "¡Explora el mundo e inicia nuevas colonias!",
+				"header" : "Colonización",
+				"text1" : "Hay tres biomas con contenido único al oeste, sur y al centro del este de la zona de aparición. El Sol se alza desde el este. Desbloquea el Planeador para una exploración rápida.",
+				"text2" : "Desbloquea y crea el Kit colonial de inicio para colonizar nuevos biomas. ¡Necesitas llevarlo para poder iniciar una nueva colonia!",
+				"text3" : "Los otros biomas te permiten crear nuevos items de felicidad. Usa el mercader para intercambiar con otras colonias."
 			}
+		},
+		"sciencebiome" : {
+			"arctic" : "El Artico",
+			"currentarea" : "Región actual: {0}",
+			"fareast" : "El Lejano Oriente",
+			"newworld" : "En Nuevo Mundo",
+			"noarea" : "Ninguna",
+			"none" : "Ninguna",
+			"oldworld" : "El Viejo Mundo",
+			"tropics" : "El Trópico"
 		},
 		"settingsmenu" : {
 			"audio" : "Sonido",
@@ -645,8 +1003,8 @@
 				"preset" : "Preset",
 				"ragdoll" : "Cantidad de cadáveres",
 				"resolution" : "Resolución",
-				"restarttoapply" : "(*) Requiere reiniciar el juego completamente",
-				"shaderquality" : "Calidad de shader",
+				"restarttoapply" : "(*) Requiere reiniciar el juego",
+				"shaderquality" : "Calidad de sombreadores",
 				"skyboxconstant" : "Cielo constante",
 				"skyboxfrequent" : "Cielo frecuente",
 				"skyboxslow" : "Cielo bajo",
@@ -664,30 +1022,43 @@
 			}
 		},
 		"singleplayermenu" : {
-			"colonyname" : "Nombre de la colonia",
-			"daymonsters" : "Monstruos durante el día",
+			"alreadyexists" : "¡Este mundo ya existe!",
+			"cancel" : "Cancelar",
+			"confirmdelete" : "Confirmar eliminación",
+			"confirmdeletedescription" : "Estas a punto de eliminar la carpeta que contiene este mundo.\n¿Seguro que quieres hacerlo?",
 			"delete" : "Borrar",
-			"doubledmonsters" : "Doble de monstruos",
+			"hostingoptions" : "Ajustes de hosting",
 			"load" : "Cargar",
 			"loadworld" : "Cargar mundo",
 			"newworld" : "Nuevo mundo",
+			"password" : "Contraseña",
 			"play" : "Jugar",
-			"spawnmonsters" : "Monstruos",
+			"servername" : "Nombre del servidor",
+			"serverport" : "Puerto del servidor",
 			"worlddate" : "Fecha",
-			"worldname" : "Nombre"
+			"worldname" : "Nombre",
+			"worldname_long" : "Nombre del mundo",
+			"worldseed" : "Semilla del mundo"
 		}
 	},
 	"types" : {
 		"adobe" : "Adobe",
 		"alkanet" : "Alkanna",
 		"alkanetstage1" : "Semilla de alkana",
+		"banana" : "Platano",
 		"banner" : "Estandarte",
 		"bannertool" : "Herramienta del estandarte",
+		"barley" : "Cebada",
+		"barleystage1" : "Semillas de Cebada",
 		"bed" : "Cama",
+		"beehive" : "Colmena",
+		"beeswax" : "Cera de abejas",
 		"berry" : "Baya",
 		"berrybush" : "Semilla de baya",
 		"blackplanks" : "Piso flotante negro",
 		"bloomery" : "Fragua",
+		"boilingwater" : "Agua hirviendo",
+		"book" : "Libro",
 		"bow" : "Arco",
 		"bowstring" : "Cuerda de arco",
 		"bread" : "Pan",
@@ -703,54 +1074,93 @@
 		"bronzeingot" : "Lingote de bronce",
 		"bronzepickaxe" : "Pico de bronce",
 		"bronzeplate" : "Plato de bronce",
+		"bucketempty" : "Balde vacio",
+		"bucketwater" : "Balde de agua",
+		"cabbage" : "Repollo",
+		"cabbagestage1" : "Semillas de repollo",
+		"cacao" : "Cacao",
+		"cake" : "Pastel",
+		"candle" : "Vela",
 		"carpetblue" : "Alfombra azul",
 		"carpetred" : "Alfombra roja",
 		"carpetwhite" : "Alfombra blanca",
 		"carpetyellow" : "Alfombra amarilla",
+		"cassava" : "Mandioca",
 		"charcoal" : "Carbón",
 		"cherryblossom" : "Flor de cerezo",
 		"cherrysapling" : "Cerezo",
+		"cherrysaplingsmall" : "Cerezo joven",
+		"chickencoop" : "Gallinero",
+		"chickenmeat" : "Carne de pollo",
+		"chocolate" : "Chocolate",
 		"clay" : "Arcilla",
-		"clothing" : "Ropa",
 		"coalore" : "Mena de carbón",
-		"coatedplanks" : "Tablones revestidos",
+		"coatedplanks" : "Tablas revestidos",
 		"cobblestoneblack" : "Guijarro negro",
 		"cobblestoneblue" : "Guijarro azul",
 		"cobblestonebrown" : "Guijarro marrón",
 		"cobblestonegrey" : "Guijarro gris",
 		"cobblestonered" : "Guijarro rojo",
+		"coffee" : "Café",
+		"coffeebeans" : "Granos de café",
 		"cokes" : "Coque",
-		"commandtool" : "Tabla de comandos",
+		"colonykit" : "Kit colonial de inicio",
+		"commandtool" : "Tabla de Trabajos",
 		"constructionjob" : "Trabajo de construcción",
+		"cookedfish" : "Pescado cocinado",
+		"cookies" : "Galletas",
 		"copper" : "Cobre",
 		"coppernails" : "Clavos de cobre",
 		"copperparts" : "Partes de cobre",
 		"coppertools" : "Herramientas de cobre",
+		"cotton" : "Algodón",
+		"cottonraw" : "Algodón en bruto",
+		"cottonthread" : "Hilo de Algodón",
+		"cottontowel" : "Toalla de Algodón",
 		"crate" : "Caja",
 		"cratebread" : "Caja de panes",
 		"crossbow" : "Ballesta",
 		"crossbowbolt" : "Virote",
 		"crystal" : "Cristal",
 		"darkstone" : "Bloque de piedra oscura",
+		"diamond" : "Diamante",
+		"diamondnecklace" : "Collar de diamantes",
 		"dirt" : "Barro",
 		"dyertable" : "Mesa de pintor",
+		"egg" : "Huevo",
+		"feather" : "Pluma",
 		"fineryforge" : "Ferrería",
 		"firewood" : "Leña",
+		"fishermanjob" : "Pescador",
+		"fishmeal" : "Alimento de peces",
+		"fishtank" : "Pecera",
 		"flax" : "Planta de lino",
 		"flaxstage1" : "Semillas de lino",
 		"flour" : "Harina",
+		"foofoo" : "Foo foo",
+		"fur" : "Pelaje",
 		"furnace" : "Fundidora",
 		"galenalead" : "Galena",
 		"galenasilver" : "Plata de la galena",
+		"glider" : "Planeador",
 		"goldcoin" : "Moneda de oro",
 		"goldingot" : "Lingote de oro",
 		"goldore" : "Mena de oro",
-		"grass" : "Césped",
-		"grassrainforest" : "Césped de selva",
-		"grasssavanna" : "Césped de sabana",
-		"grasstaiga" : "Césped de taiga",
-		"grasstemperate" : "Césped templado",
-		"grasstundra" : "Césped de tundra",
+		"grasscolddry" : "Hierba templada fría seca",
+		"grasscoldmid" : "Hierba templada fría",
+		"grasscoldwet" : "Hierba templada fría mojada",
+		"grasshotdriest" : "Hierba templada muy cálida y seca",
+		"grasshotdry" : "Hierba templada seca y cálida",
+		"grasshotmid" : "Hierba templada cálida",
+		"grasshotwet" : "Hierba templada cálida mojada",
+		"grasstaigadry" : "Hierba taiga seca",
+		"grasstaigawet" : "Hierba taiga mojada",
+		"grasstropicdriest" : "Hierba tropical muy cálida y seca",
+		"grasstropicdry" : "Hierba tropical seca",
+		"grasstropicmid" : "Hierba tropical",
+		"grasstropicwet" : "Hierba tropical mojada",
+		"grasstundradry" : "Hierba de tundra seca",
+		"grasstundrawet" : "Hierba de tundra mojada",
 		"grindstone" : "Moledora",
 		"guardbowdayjob" : "Arquero diurno",
 		"guardbownightjob" : "Arquero nocturno",
@@ -766,12 +1176,16 @@
 		"gypsum" : "Yeso",
 		"hollyhock" : "Alcea",
 		"hollyhockstage1" : "Semilla de alcea",
+		"honey" : "Miel",
+		"ink" : "Tinta",
 		"ironblock" : "Bloque de hierro",
 		"ironingot" : "Lingote de hierro",
 		"ironore" : "Mena de hierro",
 		"ironrivet" : "Remache de hierro",
 		"ironsword" : "Espada de hierro",
 		"ironwrought" : "Hierro forjado",
+		"jewelry" : "Joyería",
+		"kaolinite" : "Caolinita",
 		"kiln" : "Kiln",
 		"lanternblue" : "Linterna azul",
 		"lanterncyan" : "Linterna cian",
@@ -783,49 +1197,80 @@
 		"lanternyellow" : "Linterna",
 		"lead" : "Plomo",
 		"leadbullet" : "Bala de plomo",
-		"leaves" : "Hojas",
+		"leavesfallorange" : "Hojas naranjas",
+		"leavesfallred" : "Hojas rojas",
+		"leavesfallyellow" : "Hojas amarillas",
+		"leavesgreendark" : "Hojas oscuras",
+		"leavesgreenlight" : "Hojas claras",
 		"leavestaiga" : "Hojas de taiga",
 		"leavestemperate" : "Hojas templadas",
 		"linen" : "Lino",
 		"linenbag" : "Bolsa de sastre",
 		"linenpouch" : "Bolsa de lino",
-		"linseedoil" : "Aceite de lino",
-		"log" : "Tronco",
+		"lobster" : "Langosta",
+		"lobsterprepared" : "Langosta cocinada",
 		"logtaiga" : "Tronco de taiga",
 		"logtemperate" : "Tronco templado",
+		"luxurymeal" : "Comida lujosa",
 		"matchlockgun" : "Arcabuz",
 		"minerjob" : "Minero",
 		"mint" : "Casa de monedas",
+		"newworldmeal" : "Miel del Nuevo Mundo",
+		"npcshop" : "Tienda de comestibles",
+		"olive" : "Aceituna",
+		"oliveleaves" : "Hojas de olivo",
+		"oliveoil" : "Aceite de oliva",
+		"olivesapling" : "Árbol de olivo",
 		"oven" : "Horno",
-		"planks" : "Tablones",
-		"planksblue" : "Tablones azules",
-		"plankscyan" : "Tablones cian",
-		"planksgreen" : "Tablones verdes",
-		"planksgrey" : "Tablones grises",
-		"plankspink" : "Tablones rosas",
-		"planksred" : "Tablones rojas",
-		"planksyellow" : "Tablones amarillos",
+		"paperempty" : "Papel vacío",
+		"papertext" : "Papel con texto",
+		"papyrus" : "Papiro",
+		"perpetualstew" : "Estofado de cazador",
+		"planks" : "Tablas",
+		"planksblue" : "Tablas azules",
+		"plankscyan" : "Tablas cian",
+		"planksgreen" : "Tablas verdes",
+		"planksgrey" : "Tablas grises",
+		"plankspink" : "Tablas rosas",
+		"planksred" : "Tablas rojas",
+		"planksyellow" : "Tablas amarillos",
 		"plasterblock" : "Bloque de yeso",
-		"quarterblockblack" : "Cuarto de bloque negro",
-		"quarterblockbrowndark" : "Cuarto de bloque marrón oscuro",
-		"quarterblockbrownlight" : "Cuarto de bloque marrón claro",
-		"quarterblockgrey" : "Cuarto de bloque gris",
-		"quarterblockwhite" : "Cuarto de bloque gris",
+		"porcelainbiscuit" : "Bizcocho de porcelana",
+		"porcelainglazed" : "Porcelana esmaltada",
+		"porcelainraw" : "Porcelana cruda",
+		"potato" : "Papa",
+		"printingpress" : "Imprenta",
+		"quarterblockblack" : "Escalón negro",
+		"quarterblockbrowndark" : "Escalón café",
+		"quarterblockbrownlight" : "Escalón marrón",
+		"quarterblockgrey" : "Escalón gris",
+		"quarterblockwhite" : "Escalón blanco",
+		"rawbeeswax" : "Cera de abejas cruda",
+		"rawfish" : "Pez crudo",
 		"redplanks" : "Piso flotante rojo",
+		"rice" : "Arroz",
+		"ricemeal" : "Harina de arroz",
 		"salpeter" : "Salitre",
 		"sand" : "Arena",
+		"saplingfallorange" : "Pimpollo de otoño",
+		"saplingtaiga" : "Pimpollo de taiga",
 		"sappling" : "Pimpollo",
 		"sciencebagadvanced" : "Bolsa de ciencia avanzada",
 		"sciencebagbasic" : "Bolsa de ciencia básica",
-		"sciencebagcolony" : "Bolsa de ciencia colonial",
-		"sciencebaglife" : "Bolsa de ciencia de la vida",
-		"sciencebagmilitary" : "Bolsa de ciencia militar",
-		"sciencelab" : "Laboratorio de ciencia",
+		"sciencebagcolony" : "Bolsa colonial",
+		"sciencebaglife" : "Bolsa de salud",
+		"sciencebagmilitary" : "Bolsa militar",
+		"sciencelab" : "Laboratorio científico",
 		"shop" : "Tienda",
+		"silk" : "Seda",
+		"silkpillow" : "Almohada de seda",
+		"silkthread" : "Hilo de seda",
+		"silkwormcocoon" : "Capullo de gusano de seda",
 		"silveringot" : "Lingote de plata",
 		"sling" : "Honda",
 		"slingbullet" : "Balas de honda",
 		"snow" : "Nieve",
+		"spinningwheel" : "Hiladora",
 		"splittingstump" : "Tronco para leña",
 		"steelingot" : "Lingote de acero",
 		"steelparts" : "Partes de acero",
@@ -835,89 +1280,129 @@
 		"stonebricksbrown" : "Ladrillos de piedra marrón",
 		"stonebrickswhite" : "Ladrillos de piedra blanca",
 		"stonemasonworkbench" : "Banco de trabajo del Albañil",
+		"stove" : "Cocina",
 		"straw" : "Paja",
+		"sugar" : "Azucar",
 		"tailorshop" : "Tienda de sastre",
+		"tea" : "Té",
+		"tealeavesprocessed" : "Hojas de té procesadas",
+		"tealeavesprocesseddried" : "Hojas de té secadas",
+		"tealeavesraw" : "Hojas de té puras",
 		"technologisttable" : "Mesa de tecnología",
 		"tin" : "Estaño",
+		"tomato" : "Tomate",
 		"torch" : "Antorcha",
+		"trader" : "Mercader",
+		"undershirt" : "Camiseta",
+		"vanilla" : "Vainilla",
 		"water" : "Agua",
+		"watergathererjob" : "Aguador",
+		"waterpump" : "Bomba de agua",
+		"waxtablet" : "Tablilla de cera",
 		"wheat" : "Trigo",
 		"wheatstage1" : "Semillas de trigo",
-		"wolfsbane" : "Aconitum",
-		"wolfsbanestage1" : "Semillas de aconitum",
-		"workbench" : "Banco de trabajo"
+		"wintercoat" : "Abrigo de invierno",
+		"wolfsbane" : "Acónito",
+		"wolfsbanestage1" : "Semillas de acónito",
+		"woodcoating" : "Baño de madera",
+		"workbench" : "Banco de trabajo",
+		"writerdesk" : "Escritorio"
 	},
 	"typeuses" : {
 		"adobe" : "Barro para gente rica.",
 		"alkanet" : "En la vida real, una fuente de tinte rojo.",
+		"banana" : "Tan radioactivo como tres minutos en una mina de uranio",
+		"barley" : "Los pollos lo aman",
 		"bed" : "Requiere paja, no tornillos.",
+		"beeswax" : "Pegajoso",
 		"berry" : "No es venenoso.",
 		"berrybush" : "Los colonos lo plantaran para obtener comida fácil.",
 		"blackplanks" : "Altamente inflamable.",
 		"bloomery" : "Usa carbón como combustible para fundir hierro y galena.",
+		"boilingwater" : "Hierve eternamente, por alguna razón",
 		"bow" : "¡Los guardias necesitan una!",
 		"bowstring" : "Ploink.",
 		"bread" : "Sabe bien y cura tus heridas.",
 		"bricks" : "Después de todo, es un juego holandés.",
-		"bronzeanvil" : "El único yunque con forma de bloque.",
+		"bronzeanvil" : "¡Ya no tiene forma de bloque!",
 		"bronzearrow" : "Los monstruos siguen dejando críticas negativas. ¡A los guardias aún les gusta!",
 		"bronzeaxe" : "¡Los forestales necesitan una!",
 		"bronzecoin" : "No tan valioso como la variante del oro.",
 		"bronzeingot" : "Bronce muy fuerte... sí, claro...",
-		"bronzepickaxe" : "Usa la tabla de comandos para asignar un minero. ¡El usará el pico para extraer menas o piedras infinitas de un bloque!",
+		"bronzepickaxe" : "Usa la tabla de trabajos para asignar un minero. ¡El usará el pico para extraer menas o piedras infinitas de un bloque!",
 		"bronzeplate" : "Como la mayoría de las comidas, ¡úsalo antes de que se ponga verde!",
+		"bucketempty" : "Técnicamente, un balde lleno de aire",
+		"bucketwater" : "No, no te dejaremos inundar la mina de tu amigo",
+		"cabbage" : "Finalmente algo de verduras",
+		"cacao" : "Esperamos que sea un trato justo",
+		"cake" : "El meme está muerto",
 		"carpetblue" : "Cuando gente no merece el mismo tratamiento de la alfombra roja.",
 		"carpetred" : "¡Da igual si botas jugo de bayas sobre esta alfombra!",
 		"carpetwhite" : "Coloréalo con un tinte.",
 		"carpetyellow" : "¡Es tan esponjoso!",
-		"charcoal" : "Absorve cianuro.",
+		"cassava" : "Contiene cianuro",
+		"charcoal" : "Absorve cianuro",
 		"cherryblossom" : "La cosa más rosada del juego.",
 		"cherrysapling" : "Cosmético. Paga 10 Colonycoins para desbloquearlo.",
+		"cherrysaplingsmall" : "Item de lujo. Paga 5 Colonycoins para desbloquer.",
+		"chickenmeat" : "Los animales fueron lastimados en la realización de este alimento",
+		"chocolate" : "Los Dioses Antiguos fueron castigados por compartir esto con los humanos",
 		"clay" : "Ojala pudieras tocarlo.",
-		"clothing" : "Parece algo que puedes vestir. No puedes.",
 		"coalore" : "Advertencia: Puede causar problemas climáticos.",
 		"coatedplanks" : "¡Brillante!",
+		"coffee" : "Útil cuando estás en apuros",
+		"coffeebeans" : "La cafeína es una droga psicoactiva",
 		"cokes" : "Crear y quemar esta cosa es probable que sea seguro totalmente para su salud y el medio ambiente.",
+		"colonykit" : "Se requiere para iniciar colonias adicionales",
+		"cookedfish" : "Capacidades de natación reducidas",
+		"cookies" : "El nombre deriva del francés, 'galette'",
 		"copper" : "No necesita ser fundido. ¡Muy conveniente!",
 		"coppernails" : "Una innovadora forma de combinar piezas de madera.",
 		"copperparts" : "El metal mejora todo.",
 		"coppertools" : "Ni siquiera puedes cortar pan sin herramientas.",
+		"cotton" : "Llamado 'Lana de árbol' en alemán",
+		"cottonraw" : "Necesita algo de procesamiento",
+		"cottonthread" : "Van a necesitar mucho de esto",
 		"crate" : "¡Para todas las necesidades de almacenamiento!",
 		"cratebread" : "Para almacenar o hacer regalos. ¡Estas cajas no las pueden usar los colonos!",
 		"crossbow" : "Hermano menor del arcoballesta.",
 		"crossbowbolt" : "Mejor y más duro, rápido y fuerte.",
 		"crystal" : "Producido cuando la galena rica es fundida.",
-		"dirt" : "Sucio.",
+		"diamond" : "'¡Por qué tan dificil! Dijo el carbón al diamante",
+		"dirt" : "Sucio",
 		"dyertable" : "Habilidades de pintura legendarias",
+		"egg" : "Llegó al menos trescientos millones de años antes que la gallina",
+		"feather" : "Cae tan rápido al suelo como un martillo, en la Luna.",
 		"fineryforge" : "Requiere coque para crear acero y lingotes de oro.",
 		"firewood" : "Combustible básico.",
+		"fishmeal" : "Buen fertilizante para el repollo",
 		"flax" : "El color imperial.",
 		"flaxstage1" : "Ponla en el suelo.",
 		"flour" : "Un colono usará un horno y convertirá esto en pan.",
+		"foofoo" : "/ fufu / fufuo / foufou",
+		"fur" : "Peludo",
 		"furnace" : "Usa leña como combustible para crear lingotes de bronce y ladrillos.",
 		"galenalead" : "Contiene un montón de plomo.",
 		"galenasilver" : "Contiene un montón de plata.",
+		"glider" : "_MISSING_Press 'Space' to go up, hold 'W' to go forward!",
 		"goldcoin" : "Con el retrato del rey en un lado.",
 		"goldingot" : "Fue utilizado para garantizar el valor del papel moneda.",
 		"goldore" : "No lo pierdas.",
-		"grassrainforest" : "Esta hierba es muy verde.",
-		"grasssavanna" : "La hierba parece ser más verde en el otro lado.",
-		"grasstaiga" : "¡Fuera de mi jardín!",
-		"grasstemperate" : "¡Fuera de mi jardín!",
-		"grasstundra" : "¡Fuera de mi jardín!",
 		"grindstone" : "Se utiliza para moler el trigo y convertirlo en harina.",
 		"gunpowder" : "¡Manipular con cuidado!",
 		"gunpowderpouch" : "Puede ser usado para disparar un arcabuz.",
 		"gunsmithshop" : "Crea armas de fuego y munición.",
 		"gypsum" : "Cosmético. Debería haber sido una microtransacción.",
 		"hollyhock" : "Un laxante en la vida real. No dentro del juego. Aún.",
+		"ink" : "¡Cuidado, Ned, cuidado ahora!",
 		"ironblock" : "No lo dejes caer en tus pies.",
-		"ironingot" : "Hierro STRONKER",
+		"ironingot" : "Hierro fuerrrt",
 		"ironore" : "Minado con un pico de hierro creada con un lingote de hierro.",
 		"ironrivet" : "Más poderosa que la cinta adhesiva.",
 		"ironsword" : "¡Clávaselos con la punta del filo!",
 		"ironwrought" : "Forjado simplemente significa 'trabajado'.",
-		"kiln" : "Convierte los tablones de madera en carbón.",
+		"kaolinite" : "Usado para la porcelana",
+		"kiln" : "Convierte los tablas en carbón.",
 		"lanterncyan" : "El futuro es ahora.",
 		"lanterngreen" : "Hace tu colonia eco-amigable.",
 		"lanternorange" : "Extra acogedor.",
@@ -930,17 +1415,37 @@
 		"linen" : "Lencería significa ropa interior hecha de lino.",
 		"linenbag" : "Mejor que una bolsa de plástico.",
 		"linenpouch" : "Usado para almacenar pólvora.",
-		"linseedoil" : "Hace las cosas brillantes.",
+		"lobster" : "Obsesionado con el estatus y la jerarquía",
+		"lobsterprepared" : "Dominante no por el momento",
 		"logtaiga" : "Ligeramente frio.",
 		"logtemperate" : "Como un registro de salida, pero diferente.",
+		"luxurymeal" : "Signos de Civilización",
 		"matchlockgun" : "Requiere bolsas de pólvora para disparar balas de plomo.",
 		"mint" : "No es una falsificación si el rey dice que está bien.",
+		"newworldmeal" : "Padre de la comida rápida",
+		"npcshop" : "Los colonos la visitan una vez al día para recoger el almuerzo y sus items de lujo",
+		"olive" : "Crece en los olivos",
 		"oven" : "Usa leña como combustible para hornear harina en pan.",
+		"paperempty" : "Muchísimo potencial",
+		"papertext" : "Pronto estará al nivel de Shakespeare",
+		"papyrus" : "Papel próximamente",
+		"perpetualstew" : "Realmente medieval",
 		"planks" : "¡Ahora con 4 veces el volumen de un tronco!",
 		"plasterblock" : "Para un look más moderno.",
+		"porcelainbiscuit" : "Necesita ser esmaldato",
+		"porcelainglazed" : "¡Listo!",
+		"porcelainraw" : "Necesita cocción",
+		"potato" : "Hiervelos, hacelos puré, frielos",
+		"printingpress" : "Respeta su libertad",
+		"rawbeeswax" : "Se ve sabroso",
+		"rawfish" : "#Orgánico #SinHormonas #PastoDeAlimento",
 		"redplanks" : "No tiene valor como comida, pero ¡sabe bastante bien!",
+		"rice" : "Compone más del 20% de las calorias consumidas por los humanos",
+		"ricemeal" : "El favorito de Zun",
 		"salpeter" : "No sazones tu comida con esto.",
 		"sand" : "No se mezcla bien con las serpientes.",
+		"saplingfallorange" : "Un naranjo en el futuro",
+		"saplingtaiga" : "Un árbol algo diferente",
 		"sappling" : "Futuro árbol.",
 		"sciencebagadvanced" : "Necesarias para investigar ciencia avanzada.",
 		"sciencebagbasic" : "Necesarias para investigar ciencia básica.",
@@ -949,6 +1454,9 @@
 		"sciencebagmilitary" : "Necesarias para investigar ciencia con relación al combate.",
 		"sciencelab" : "Usado por un científico para desbloquear nuevas tecnologías. ¡Múltiples científicos pueden trabajar juntos!",
 		"shop" : "Solo para comprar, la venta no esta permitida.",
+		"silk" : "Tan suave",
+		"silkthread" : "Fácil de perder",
+		"silkwormcocoon" : "Pequeñisimo",
 		"silveringot" : "Ligeramente más valioso que el plomo.",
 		"sling" : "Ten cuidado, Goliat.",
 		"slingbullet" : "Una pequeña roca, de verdad.",
@@ -958,15 +1466,23 @@
 		"steelparts" : "Los lingotes son tan difíciles de manejar.",
 		"stonebricks" : "Pulsar en caso de emergencia.",
 		"stonemasonworkbench" : "Crea cincuenta tonos de ladrillos.",
+		"stove" : "Para perfumar con comida deliciosa sus alrededores",
 		"straw" : "Lo necesitas para crear camas y es subproducto de la extracción de trigo.",
-		"tailorshop" : "Puede crear lino, alfombra, ropa y bolsas.",
+		"sugar" : "Provoca con facilidad obesidad, diabetes y otros problemas de salud",
+		"tailorshop" : "¡Ropa a medida para todos!",
 		"technologisttable" : "Crea bolsas de ciencia.",
 		"tin" : "Tan solo un poco toxico.",
+		"tomato" : "¿Fruta o verdura?",
 		"torch" : "¡Y se hizo la luz!",
-		"water" : "¡Se supone que NO deberías tener esto en tu inventario!",
+		"trader" : "Nadie lo sabe, pero es para los negocios",
+		"vanilla" : "Exquisito",
+		"water" : "Provocará una inundación se lo dejan caer",
+		"waterpump" : "Como el aguador, pero más lento y no necesita aguas abiertas",
+		"waxtablet" : "No se pueden conectar auriculares",
 		"wheat" : "Un colono usara una moledora para convertirla en harina.",
 		"wheatstage1" : "El pan del mañana.",
 		"wolfsbane" : "Impide que los lobos ataquen tu colonia.",
-		"workbench" : "Recluta un artesano. ¡Él creara por ti!"
+		"workbench" : "Recluta un artesano. ¡Él creara por ti!",
+		"writerdesk" : "Ergonomía total"
 	}
 }

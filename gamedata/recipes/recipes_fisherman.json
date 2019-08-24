@@ -1,0 +1,12 @@
+[
+	{
+		"name" : "pipliz.fisherman.rawfish",
+		"requires" : [
+			
+		],
+		"results" : [
+			{"chance":0.95,"type":"rawfish"},
+			{"chance":0.05,"type":"lobster"}
+		]
+	}
+]

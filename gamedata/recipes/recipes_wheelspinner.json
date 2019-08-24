@@ -1,0 +1,22 @@
+[
+	{
+		"name" : "wheelspinner.silkthread",
+		"requires" : [
+			{"type":"silkwormcocoon"},
+			{"type":"boilingwater"}
+		],
+		"results" : [
+			{"type":"silkthread"},
+			{"isOptional":true,"type":"bucketempty"}
+		]
+	},
+	{
+		"name" : "wheelspinner.cottonthread",
+		"requires" : [
+			{"type":"cottonraw"}
+		],
+		"results" : [
+			{"type":"cottonthread"}
+		]
+	}
+]

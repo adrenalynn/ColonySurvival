@@ -1,0 +1,12 @@
+[
+	{
+		"defaultLimit" : 10,
+		"name" : "pipliz.waterpump.waterbucket",
+		"requires" : [
+			{"type":"bucketempty"}
+		],
+		"results" : [
+			{"type":"bucketwater"}
+		]
+	}
+]

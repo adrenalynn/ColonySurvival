@@ -1,12 +1,13 @@
-﻿using BlockTypes.Builtin;
+﻿using BlockTypes;
+using Jobs;
 using UnityEngine.Assertions;
 
 namespace Pipliz.Mods.BaseGame.Construction.Types
 {
 	public class DiggerSpecial : IConstructionType
 	{
-		public Shared.EAreaType AreaType { get { return Shared.EAreaType.DiggerSpecial; } }
-		public Shared.EAreaMeshType AreaTypeMesh { get { return Shared.EAreaMeshType.ThreeD; } }
+		public int MaxGatheredPerRun { get; set; } = 5;
+		public int OnStockpileNewItemCount => 0;
 
 		static System.Collections.Generic.List<ItemTypes.ItemTypeDrops> GatherResults = new System.Collections.Generic.List<ItemTypes.ItemTypeDrops>();
 
@@ -17,7 +18,7 @@ namespace Pipliz.Mods.BaseGame.Construction.Types
 			this.digType = digType;
 		}
 
-		public void DoJob (IIterationType iterationType, IAreaJob areaJob, ConstructionJob job, ref NPC.NPCBase.NPCState state)
+		public void DoJob (IIterationType iterationType, IAreaJob areaJob, ConstructionJobInstance job, ref NPC.NPCBase.NPCState state)
 		{
 			if (iterationType == null) {
 				AreaJobTracker.RemoveJob(areaJob);
@@ -29,7 +30,7 @@ namespace Pipliz.Mods.BaseGame.Construction.Types
 				Vector3Int jobPosition = iterationType.CurrentPosition;
 				if (!jobPosition.IsValid) {
 					// failed to find next position to do job at, self-destruct
-					state.SetIndicator(new Shared.IndicatorState(5f, BuiltinBlocks.ErrorIdle));
+					state.SetIndicator(new Shared.IndicatorState(5f, BuiltinBlocks.Indices.erroridle));
 					AreaJobTracker.RemoveJob(areaJob);
 					return;
 				}
@@ -60,7 +61,7 @@ namespace Pipliz.Mods.BaseGame.Construction.Types
 							}
 						}
 
-						if (ServerManager.TryChangeBlock(jobPosition, 0, areaJob.Owner, ServerManager.SetBlockFlags.DefaultAudio)) {
+						if (ServerManager.TryChangeBlock(jobPosition, 0, areaJob.Owner, ESetBlockFlags.DefaultAudio) == EServerChangeBlockResult.Success) {
 							float blockDestructionTime = GetCooldown(foundType.DestructionTime * 0.001f);
 							GatherResults.Clear();
 							var itemList = foundType.OnRemoveItems;
@@ -68,7 +69,7 @@ namespace Pipliz.Mods.BaseGame.Construction.Types
 								GatherResults.Add(itemList[i]);
 							}
 
-							ModLoader.TriggerCallbacks(ModLoader.EModCallbackType.OnNPCGathered, job as NPC.IJob, jobPosition, GatherResults);
+							ModLoader.Callbacks.OnNPCGathered.Invoke(job, jobPosition, GatherResults);
 
 							InventoryItem toShow = ItemTypes.ItemTypeDrops.GetWeightedRandom(GatherResults);
 							if (toShow.Amount > 0) {
@@ -77,8 +78,14 @@ namespace Pipliz.Mods.BaseGame.Construction.Types
 								state.SetCooldown(blockDestructionTime);
 							}
 							state.Inventory.Add(GatherResults);
+
+							job.StoredItemCount++;
+							if (job.StoredItemCount >= MaxGatheredPerRun) {
+								job.ShouldTakeItems = true;
+								state.JobIsDone = true;
+							}
 						} else {
-							state.SetIndicator(new Shared.IndicatorState(5f, BuiltinBlocks.ErrorMissing, true, false));
+							state.SetIndicator(new Shared.IndicatorState(5f, BuiltinBlocks.Indices.missingerror, true, false));
 						}
 						return; // either changed a block or set indicator, job done
 					} else {
@@ -86,7 +93,7 @@ namespace Pipliz.Mods.BaseGame.Construction.Types
 					}
 					// unreachable
 				} else {
-					state.SetIndicator(new Shared.IndicatorState(5f, BuiltinBlocks.ErrorMissing, true, false));
+					state.SetIndicator(new Shared.IndicatorState(5f, BuiltinBlocks.Indices.missingerror, true, false));
 					return; // end loop, wait for world to load
 				}
 				// unreachable
@@ -98,7 +105,7 @@ namespace Pipliz.Mods.BaseGame.Construction.Types
 
 		public static float GetCooldown (float blockDestructionTime)
 		{
-			return Math.Clamp(Random.NextFloat(4f * blockDestructionTime, 6f * blockDestructionTime), 0.2f, 15f);
+			return Math.Clamp(Random.NextFloat(4f * blockDestructionTime, 6f * blockDestructionTime) * ServerManager.ServerSettings.NPCs.DiggerCooldownMultiplierSeconds, 0.05f, 15f);
 		}
 	}
 }

@@ -1,55 +1,196 @@
 {
-	"coverage" : 93.8722294654498,
+	"coverage" : 96.6414777497901,
 	"hints" : {
-		"0" : "_MISSING_For most farms, larger size means more production. Berry gatherers are an exception to this rule.",
-		"1" : "_MISSING_More and different monsters will spawn as you recruit more colonists.",
-		"10" : "_MISSING_3x33 is the optimal size for a forester.",
-		"11" : "_MISSING_Press 'CTRL' to crouch and not fall of edges.",
-		"12" : "_MISSING_Press 'CTRL' while recruiting colonists to recruit 15 colonists simultaneously.",
-		"13" : "_MISSING_Press 'CTRL' while placing a construction area to place a second area with the same settings.",
-		"14" : "_MISSING_There are multiple mods for Colony Survival. Find them on the Steam Forums or Discord!",
-		"15" : "_MISSING_You can also search the stockpile for general terms like 'food' and 'ammo'.",
-		"2" : "_MISSING_Certain layers of the world contain ores. Dig deeper to find different ores.",
-		"3" : "_MISSING_Press 'G' to activate your torch.",
-		"4" : "_MISSING_Click on 'job blocks' to see how they're used and to prioritize certain recipes.",
-		"5" : "_MISSING_Press 'F1' to open and close the manual.",
-		"6" : "_MISSING_Scientists use the items in a Science Bag, but the linen bag itself is often returned to the stockpile.",
-		"7" : "_MISSING_Differences in range, reloading speed and damage give every type of guard unique benefits and drawbacks.",
-		"8" : "_MISSING_We write a weekly Friday Blog. Find it on our storepage to learn more about the development of Colony Survival!",
-		"9" : "_MISSING_Firing a musket consumes a bullet and gunpowder, but the linen pouch that contained the gunpowder is often conserved."
+		"0" : "ほとんどの農場において、生産量は畑の大きさに比例する。 だが、ベリー採集はこの法則の例外だ。",
+		"1" : "入植者の数が増えると、より多くのモンスターや別種のモンスターが出現するぞ。",
+		"10" : "林業者にとって最も効率的なサイズは3x33だ。",
+		"11" : "“CTRL”を押してかがむと、ブロックの縁からの落下を防げるぞ。",
+		"12" : "入植者の雇用の際に“CTRL”を押すと、同時に15人の入植者を雇えるぞ。",
+		"13" : "土木建築エリアを設置する際に“CTRL”を押すと、直前のエリアと同じ設定で新たなエリアを設置できる。",
+		"14" : "Colony Survivalには複数のModが存在する。 SteamフォーラムやDiscordで探してみよう！",
+		"15" : "備蓄品内の検索は、‘food’や‘ammo’のような大まかな意味の用語を使うことも可能だ。",
+		"2" : "鉱石はそれぞれ地下の特定の層に存在する。 別種のものを探すなら、さらに深く掘り下げよう。",
+		"3" : "“G”を押して、自分の周囲を松明で照らそう。",
+		"4" : "‘仕事ブロック’をクリックすると、どのように使われているか確認したり、各レシピの優先順位を決めたりできる。",
+		"5" : "“F1”を押すと、マニュアルを開いたり閉じたりできる。",
+		"6" : "科学者がサイエンスバッグ内のアイテムを使用しても、リネンの袋自体は多くの場合備蓄品に戻る。",
+		"7" : "射程とリロード速度、ダメージの違いによって、衛兵はタイプ毎に固有の長所と短所を持っている。",
+		"8" : "私達は毎週Friday Blogを公開している。 ストアページから訪ねてColony Survivalの開発に関する情報をもっと知ろう！",
+		"9" : "マスケット銃を撃つと弾丸と火薬を消費するが、火薬が入ったリネンの小袋は多くの場合消費しない。"
 	},
 	"sentences" : {
-		"connectingscreen" : {
-			"general_1" : "_MISSING_Stage {0}/{1} - Password required",
-			"general_2" : "_MISSING_Stage {0}/{1} - Requested server files table",
-			"general_3" : "_MISSING_Stage {0}/{1} - Loading {2} files",
-			"general_3_downloading" : "_MISSING_ (downloading {0} packets)",
-			"general_4" : "_MISSING_Stage {0}/{1} - Finalizing",
-			"general_fail" : "_MISSING_Connecting timed out after {0} seconds. Returning to main menu in 5 seconds.",
-			"loading" : "_MISSING_Loading",
-			"localhost_1" : "_MISSING_Stage 1/{0} - Searching for singleplayer server on this computer",
-			"localhost_2" : "_MISSING_Stage 2/{0} - Searching for steam server on this computer",
-			"localhost_fail" : "_MISSING_Failed to find steam/singleplayer server running on this computer. Reloading to main menu in 5 seconds.",
-			"refused" : {
-				"blacklisted" : "_MISSING_you are blacklisted",
-				"incompatible" : "_MISSING_server had an unexpected problem",
-				"invalidpassword" : "_MISSING_password was invalid",
-				"invalidticket" : "_MISSING_steam ticket was invalid",
-				"maxplayer" : "_MISSING_server is full",
-				"misc" : "_MISSING_unknown reason",
-				"notonwhitelist" : "_MISSING_you are not whitelisted",
-				"versionwrongclient" : "_MISSING_version mismatch according to the client",
-				"versionwrongserver" : "_MISSING_version mismatch according to the server"
+		"bannerclickedpopup" : {
+			"deletebanner" : "バナーを削除",
+			"deletecolony" : "コロニーを削除",
+			"deletecolonydescription" : "コロニー最後のバナーを削除すると、全てのNPCが消滅しコロニーは機能しなくなります。 この操作を確定するには、下に'delete'とタイプして下さい。",
+			"header" : "バナーオプション",
+			"noconfirmationdelete" : "削除コマンドは無効です、確認入力がありません",
+			"placementfail" : "この場所にバナーは設置できません"
+		},
+		"bannerplacementpopup" : {
+			"activecolony" : "アクティブなコロニー: {0}",
+			"addbanner" : "バナーを追加",
+			"header" : "バナーの設置",
+			"movebanner" : "バナーを移動",
+			"mustbeleader" : "バナーを変更するにはコロニーのリーダーである必要があります",
+			"startcolony" : "ここで新しいコロニーを開始"
+		},
+		"biome" : {
+			"arctic" : {
+				"description" : "コロニーは北極に位置しています",
+				"name" : "北極のコロニー"
 			},
-			"refused_main" : "_MISSING_Connection refused, {0}. Returning to main menu in 5 seconds.",
-			"sp_1" : "_MISSING_Stage 1/{0} - Start listening for background server",
-			"sp_2" : "_MISSING_Stage 2/{0} - Starting background server",
-			"sp_3" : "_MISSING_Stage 3/{0} - Started server, awaiting connection",
-			"sp_alreadyrunning1" : "_MISSING_A server for this install is already running. It may still be quitting. Will retry in 5 seconds.",
-			"sp_alreadyrunning2" : "_MISSING_A server is already running. Returning to the main menu in 5 seconds.",
-			"steam1" : "_MISSING_Stage 1/{0} - Getting connection data from {1}",
-			"steam2" : "_MISSING_Stage 2/{0} - Setting up server connection",
-			"steamfail" : "_MISSING_Failed to receive connection data. Returning to main menu in 5 seconds."
+			"fareast" : {
+				"description" : "コロニーは極東に位置しています",
+				"name" : "極東のコロニー"
+			},
+			"newworld" : {
+				"description" : "コロニーは新世界に位置しています",
+				"name" : "新世界のコロニー"
+			},
+			"oldworld" : {
+				"description" : "コロニーは旧世界に位置しています",
+				"name" : "旧世界のコロニー"
+			},
+			"tropics" : {
+				"description" : "コロニーは熱帯に位置しています",
+				"name" : "熱帯のコロニー"
+			}
+		},
+		"chat" : {
+			"colonydied" : "{0} の入植者全員が死亡しました",
+			"onsciencedone" : "科学「{0}」の研究が完了しました",
+			"onscienceready" : "科学「{0}」の研究を完了できる状態になりました！",
+			"onsciencetraded" : "取引によって科学「{0}」の研究が完了しました",
+			"playerdied" : "プレイヤー {0} が死亡しました"
+		},
+		"colonymanagement" : {
+			"colonysettings" : {
+				"daymonsters" : "昼のモンスタースポーン量",
+				"enablehappiness" : "幸福度を有効にする",
+				"header" : "コロニーの設定",
+				"nightmonsters" : "夜のモンスタースポーン量"
+			},
+			"connectedplayers" : "接続済みプレイヤー",
+			"currentowners" : "現在のオーナー",
+			"diplomacy" : {
+				"incomingdeals" : "_MISSING_Incoming deals",
+				"mainbutton" : "対外交渉",
+				"mainheader" : "対外交渉",
+				"outgoingdeals" : "_MISSING_Outgoing deals",
+				"pendingdeals" : "_MISSING_Pending incoming deals",
+				"ruleaccept" : "受諾",
+				"ruleactive" : "アクティブ",
+				"rulepending" : "保留",
+				"ruleremove" : "削除"
+			},
+			"inventoryheader" : "コロニー",
+			"invite" : "オーナーとして追加",
+			"kick" : "コロニーから追放",
+			"leader" : "リーダー",
+			"leave" : "コロニーを離脱",
+			"managecolonies" : {
+				"location" : {
+					"east" : "{0} ブロック東、",
+					"key" : "位置: ",
+					"north" : "{0} ブロック北、",
+					"south" : "{0} ブロック南、",
+					"west" : "{0} ブロック西"
+				},
+				"mainbutton" : "コロニーを管理",
+				"mainheader" : "コロニーを管理",
+				"selectheader" : "管理するコロニーを選んでください",
+				"siegemode" : "シージモード:"
+			},
+			"manageheader" : "オーナー権限の管理",
+			"manageowners" : "オーナーを管理",
+			"nameedit" : "コロニー名を編集:",
+			"namefield" : "コロニー名:",
+			"recruitauto" : "仕事設定時に自動雇用",
+			"recruitautorequirements" : "<i>この設定をオンにすると、仕事を設置したときに、少なくとも-10の幸福度、空きのベッド、2日分相当の食料があり、失業者皆無の状態だと、新しい入植者を雇用します</i>",
+			"recruitmentamount" : "雇用する入植者の人数:",
+			"recruitmentbutton" : "入植者を雇用",
+			"recruitmentheader" : "雇用",
+			"recruittext3" : "入植者には、1日2000カロリーとベッドが必要です。",
+			"recruittext4" : "次の入植者を雇用するには {0} カロリーが必要です。",
+			"recruittext5" : "雇用コストは幸福度の影響により通常の {0} となっています。",
+			"recruittofillbeds" : "空きベッドが埋まるまで雇用",
+			"recruittofilljobs" : "空きの仕事が埋まるまで雇用",
+			"resetcolonypriority" : "_MISSING_Reset active colony priorities",
+			"science" : {
+				"incomingdescription" : "_MISSING_{0} will share their science with you",
+				"newagreement" : "科学協定を提案",
+				"outgoingdescription" : "_MISSING_You provide {0} with your science",
+				"selectcolony" : "科学を送る対象のコロニーを選んでください"
+			},
+			"selectcolony" : {
+				"headercolonists" : "入植者",
+				"headercolony" : "コロニー",
+				"headerleader" : "リーダー",
+				"headerselect" : "選択",
+				"nocolonies" : "リストするコロニーがありません",
+				"select" : "選択"
+			},
+			"settoleader" : "リーダーに設定",
+			"start" : {
+				"create" : "コロニーを建設",
+				"defaultkit" : "初回用スターターキットが使用されます",
+				"kits" : "使用可能なキット",
+				"missingkit" : "コロニースターターキットがありません",
+				"name" : "コロニー名",
+				"parentcolony" : "親コロニー",
+				"popupheader" : "コロニー建設",
+				"usescienceagreement" : "_MISSING_Transfer Science"
+			},
+			"startrecruitment" : "雇用",
+			"startsettings" : "コロニーの設定",
+			"switchcolony" : "{0} に切り替え",
+			"trading" : {
+				"completerule" : "ルールを作成",
+				"mainheader" : "新しい交易ルールの設定",
+				"newrule" : "交易ルールを提案",
+				"ruledescription" : "_MISSING_Traders will trade {0} from {1} to {2} if both of the following:",
+				"ruledescriptionlimit" : "_MISSING_ {0} items left to trade.",
+				"ruleincomingdescr" : "_MISSING_Get {0} from {1} if they have more than {2} and we have less than {3}.",
+				"rulemaximumgoal" : "_MISSING_{0} has less than: ",
+				"rulemaximumtraded" : "_MISSING_This deal will send up to the following amount of items in total: ",
+				"ruleminimumthis" : "_MISSING_{0} has more than: ",
+				"ruleoutgoingdescr" : "_MISSING_Send {0} to {1} if we have more than {2} and they have less than {3}.",
+				"selectcolony" : "交易対象のコロニーを選んでください"
+			}
+		},
+		"connectingscreen" : {
+			"general_1" : "ステージ {0}/{1} - パスワードを要求",
+			"general_2" : "ステージ {0}/{1} - サーバーファイルの一覧を参照",
+			"general_3" : "ステージ {0}/{1} - {2}個のファイルをロード中",
+			"general_3_downloading" : "({0}パケットをダウンロード中)",
+			"general_4" : "ステージ {0}/{1} - 最終処理中",
+			"general_fail" : "接続が{0}秒経過後にタイムアウトしました。 あと5秒でメインメニューに戻ります。",
+			"loading" : "ロード中",
+			"localhost_1" : "ステージ 1/{0} - コンピュータ上のシングルプレイヤーサーバーを検索中",
+			"localhost_2" : "ステージ 2/{0} - コンピュータ上のSteamサーバーを検索中",
+			"localhost_fail" : "コンピュータ上で起動中のSteam/シングルプレイヤーサーバーが見つかりません。 あと5秒でメインメニューをリロードします。",
+			"refused" : {
+				"blacklisted" : "あなたはブラックリストに入っています",
+				"incompatible" : "サーバーに予期せぬ問題が発生しています",
+				"invalidpassword" : "パスワードが無効です",
+				"invalidticket" : "Steamチケットが無効です",
+				"maxplayer" : "サーバーは満員です",
+				"misc" : "原因不明",
+				"notonwhitelist" : "あなたはホワイトリストに入っていません",
+				"versionwrongclient" : "クライアントに起因するバージョン不適合",
+				"versionwrongserver" : "サーバーに起因するバージョン不適合"
+			},
+			"refused_main" : "接続を中断、 {0}。 あと5秒でメインメニューに戻ります。",
+			"sp_1" : "ステージ 1/{0} - バックグラウンドサーバーの待機を開始",
+			"sp_2" : "ステージ 2/{0} - バックグラウンドサーバーの起動中",
+			"sp_3" : "ステージ 3/{0} - サーバー起動完了、接続を待っています",
+			"sp_alreadyrunning1" : "このインストール向けのサーバーは起動していますが、終了処理中の可能性があります。 あと5秒でリトライします。",
+			"sp_alreadyrunning2" : "サーバーは既に起動中です。 あと5秒でメインメニューに戻ります。",
+			"steam01" : "_MISSING_Stage 1/{0} - Trying to setup TCP connection to {1}",
+			"steam02" : "_MISSING_Stage 2/{0} - Trying to setup steam connection",
+			"steam03" : "_MISSING_Stage 3/{0} - Connection succesful, authenticating",
+			"steamfail" : "接続データの取得に失敗しました。 あと5秒でメインメニューに戻ります。"
 		},
 		"escapemenu" : {
 			"back" : "ゲームに戻る",
@@ -61,9 +202,10 @@
 		"firstpersonstats" : {
 			"ammocount" : "矢弾:",
 			"bedcount" : "ベッド:",
+			"caloriestorage" : "総カロリー量:",
+			"calorieusage" : "カロリー消費/日:",
 			"colonistcount" : "入植者:",
-			"foodstorage" : "食料:",
-			"foodusage" : "食料消費/日:",
+			"happiness" : "幸福度:",
 			"laborercount" : "失業者:"
 		},
 		"general" : {
@@ -82,6 +224,20 @@
 			"veryhigh" : "かなり高",
 			"yes" : "はい"
 		},
+		"happiness" : {
+			"availablefood" : "_MISSING_{0}% availability for {1}",
+			"availableluxury" : "_MISSING_{0}% availability for {1}",
+			"baseamount" : "ありふれた幸福",
+			"calories" : "支給カロリー量",
+			"calorieshappy" : "十分な栄養",
+			"calorieshunger" : "空腹",
+			"caloriesstarvation" : "飢餓",
+			"colonistcount" : "人口",
+			"disabledeffect" : "幸福度は無効です",
+			"recruitmentcost" : "雇用コスト: 通常の {0:P0}",
+			"sciencespeed" : "研究速度: 通常の {0:P0}",
+			"totalhappiness" : "合計幸福度: {0}"
+		},
 		"infomenu" : {
 			"changelog" : "更新履歴",
 			"credits" : "クレジット",
@@ -89,6 +245,7 @@
 		},
 		"mainmenu" : {
 			"back" : "戻る",
+			"coop" : "Co-opをホスト",
 			"info" : "情報",
 			"multiplayer" : "マルチプレイヤー",
 			"quit" : "終了",
@@ -121,7 +278,7 @@
 		"pipliz" : {
 			"baseresearch" : {
 				"archery" : {
-					"description" : "「弓兵」と、作業台での弓生産をアンロックする",
+					"description" : "「弓兵」と、作業台での「弓」生産をアンロックする",
 					"name" : "弓術"
 				},
 				"bannerradius1" : {
@@ -129,24 +286,36 @@
 					"name" : "バナー範囲 I"
 				},
 				"bannerradius2" : {
-					"description" : "安全圏の範囲を55ブロックまでに拡大する",
+					"description" : "安全圏の範囲を50ブロックまでに拡大する",
 					"name" : "バナー範囲 II"
 				},
 				"bannerradius3" : {
-					"description" : "安全圏の範囲を70ブロックまでに拡大する",
+					"description" : "安全圏の範囲を60ブロックまでに拡大する",
 					"name" : "バナー範囲 III"
 				},
 				"bannerradius4" : {
-					"description" : "安全圏の範囲を85ブロックまでに拡大する",
+					"description" : "安全圏の範囲を70ブロックまでに拡大する",
 					"name" : "バナー範囲 IV"
 				},
 				"bannerradius5" : {
-					"description" : "安全圏の範囲を100ブロックまでに拡大する",
+					"description" : "安全圏の範囲を80ブロックまでに拡大する",
 					"name" : "バナー範囲 V"
 				},
-				"bloomery" : {
-					"description" : "鉄鉱石と方鉛鉱を加工できる「塊鉄炉」をアンロックする",
-					"name" : "塊鉄炉"
+				"bannerradius6" : {
+					"description" : "安全圏の範囲を90ブロックまでに拡大する",
+					"name" : "バナー範囲 VI"
+				},
+				"bannerradius7" : {
+					"description" : "安全圏の範囲を100ブロックまでに拡大する",
+					"name" : "バナー範囲 VII"
+				},
+				"barleyfarmer" : {
+					"description" : "家畜のエサとして利用される「大麦」の栽培農家をアンロックする",
+					"name" : "大麦栽培"
+				},
+				"beekeeper" : {
+					"description" : "様々な贅沢品や食品の原料を作る「養蜂家」をアンロックする",
+					"name" : "養蜂"
 				},
 				"bronzeanvil" : {
 					"description" : "青銅を加工できる「青銅の金床」をアンロックする",
@@ -155,6 +324,38 @@
 				"bronzeminting" : {
 					"description" : "「造幣局」と「店」をアンロックする。 種や土、その他様々な品を購入できるようになる。",
 					"name" : "造幣局＆店"
+				},
+				"cabbagefarmer" : {
+					"description" : "「キャベツ農家」をアンロックする",
+					"name" : "キャベツ栽培"
+				},
+				"cacao" : {
+					"description" : "「カカオ」の栽培をアンロックする",
+					"name" : "カカオ"
+				},
+				"candles" : {
+					"description" : "養蜂家による「蝋燭」の生産をアンロックする",
+					"name" : "蝋燭"
+				},
+				"chickenfarmer" : {
+					"description" : "「養鶏農家」をアンロックする",
+					"name" : "養鶏"
+				},
+				"chocolate" : {
+					"description" : "「チョコレート」の生産をアンロックする",
+					"name" : "チョコレート"
+				},
+				"coffee" : {
+					"description" : "コンロでのコーヒー豆から「コーヒー」への加工をアンロックする",
+					"name" : "コーヒー"
+				},
+				"coffeebeans" : {
+					"description" : "「コーヒー豆農家」をアンロックする",
+					"name" : "コーヒー豆栽培"
+				},
+				"colonykit" : {
+					"description" : "「コロニースターターキット」の作成が可能になる",
+					"name" : "植民地化"
 				},
 				"constructionbuilder" : {
 					"description" : "人足を作業させるための建設エリアをアンロックする",
@@ -208,13 +409,25 @@
 					"description" : "人足を作業させるための特殊掘削エリアをアンロックする",
 					"name" : "特殊掘削人足"
 				},
+				"cook" : {
+					"description" : "入植者たちの食事を作ることができる「料理人」をアンロックする",
+					"name" : "料理人"
+				},
+				"cookies" : {
+					"description" : "「クッキー」の生産をアンロックする",
+					"name" : "クッキー"
+				},
+				"cottontowel" : {
+					"description" : "贅沢品「木綿のタオル」をアンロックする",
+					"name" : "木綿のタオル"
+				},
 				"crossbow" : {
 					"description" : "弓よりも強力な武器「クロスボウ」をアンロックする",
 					"name" : "クロスボウ"
 				},
-				"crossbowbolt" : {
-					"description" : "「クロスボウのボルト」をアンロックする",
-					"name" : "クロスボウのボルト"
+				"diamondprocessing" : {
+					"description" : "ダイヤモンドの加工をアンロックする",
+					"name" : "ダイヤモンド"
 				},
 				"dyertable" : {
 					"description" : "ハーブを使って特定のブロックやランタンを色づけする「染色師」をアンロックする",
@@ -224,93 +437,85 @@
 					"description" : "コークスを使って鋼鉄と金のインゴットを作れる「精製炉」をアンロックする",
 					"name" : "精製炉"
 				},
+				"fisherman" : {
+					"description" : "「漁師」をアンロックする",
+					"name" : "漁業"
+				},
 				"flaxfarming" : {
-					"description" : "リネンの生産に必要な「亜麻農家」をアンロックする。 100個の亜麻仁を付与する。",
+					"description" : "リネンの生産に必要な「亜麻農家」をアンロックする",
 					"name" : "亜麻栽培"
 				},
-				"gunpowder" : {
-					"description" : "強力な爆発物である「火薬」をアンロックする",
-					"name" : "火薬"
+				"foofoo" : {
+					"description" : "「フフ」の調理をアンロックする",
+					"name" : "フフ"
+				},
+				"fur" : {
+					"description" : "毛皮の加工をアンロックする",
+					"name" : "毛皮"
+				},
+				"glider" : {
+					"description" : "革命的な輸送手段。 新天地に到達するために不可欠。",
+					"name" : "グライダー"
 				},
 				"gunsmithshop" : {
 					"description" : "火薬を加工したり鉄砲を製作したりする「鉄砲鍛冶」をアンロックする",
 					"name" : "鉄砲鍛冶の工房"
 				},
-				"healthregensize1" : {
-					"description" : "HPの再生量を30までから50までに向上させる",
-					"name" : "再生力向上 I"
-				},
-				"healthregensize2" : {
-					"description" : "HPの再生量を50までから65までに向上させる",
-					"name" : "再生力向上 II"
-				},
-				"healthregensize3" : {
-					"description" : "HPの再生量を65までから85までに向上させる",
-					"name" : "再生力向上 III"
-				},
-				"healthregensize4" : {
-					"description" : "HPの再生量を85までから100までに向上させる",
-					"name" : "再生力向上 IV"
-				},
-				"healthregenspeed1" : {
-					"description" : "再生速度を0.5HP/秒から1HP/秒に向上させる",
-					"name" : "再生速度 I"
-				},
-				"healthregenspeed2" : {
-					"description" : "再生速度を1HP/秒から2HP/秒に向上させる",
-					"name" : "再生速度 II"
-				},
-				"healthregenspeed3" : {
-					"description" : "再生速度を2HP/秒から3HP/秒に向上させる",
-					"name" : "再生速度 III"
-				},
-				"healthregenspeed4" : {
-					"description" : "再生速度を3HP/秒から4HP/秒に向上させる",
-					"name" : "再生速度 IV"
-				},
-				"healthsize1" : {
-					"description" : "最大HPを125まで向上させる",
-					"name" : "ヘルス向上 I"
-				},
-				"healthsize2" : {
-					"description" : "最大HPを150まで向上させる",
-					"name" : "ヘルス向上 II"
-				},
-				"healthsize3" : {
-					"description" : "最大HPを175まで向上させる",
-					"name" : "ヘルス向上 III"
-				},
-				"healthsize4" : {
-					"description" : "最大HPを200まで向上させる",
-					"name" : "ヘルス向上 IV"
-				},
 				"herbfarming" : {
 					"description" : "3種類のハーブ農家をアンロックする。 ハーブは染色師が使用する",
 					"name" : "ハーブ栽培"
 				},
-				"kiln" : {
-					"description" : "「炭焼き窯」をアンロックする。 木炭のような上位の燃料を作るのに必要。",
-					"name" : "炭焼き窯"
+				"ironsmelting" : {
+					"description" : "「焼成窯」と「塊鉄炉」をアンロックする",
+					"name" : "鉄の製錬"
 				},
 				"lantern" : {
 					"description" : "金床での「ランタン」生産と、染色師による色つきのランタン生産をアンロックする",
 					"name" : "ランタン"
 				},
+				"liferesearch1" : {
+					"description" : "最大ヘルスとヘルス再生量、ヘルス再生速度が向上する",
+					"name" : "ヘルス向上 I"
+				},
+				"liferesearch2" : {
+					"description" : "最大ヘルスとヘルス再生量、ヘルス再生速度が向上する",
+					"name" : "ヘルス向上 II"
+				},
+				"liferesearch3" : {
+					"description" : "最大ヘルスとヘルス再生量、ヘルス再生速度が向上する",
+					"name" : "ヘルス向上 III"
+				},
+				"liferesearch4" : {
+					"description" : "最大ヘルスとヘルス再生量、ヘルス再生速度が向上する",
+					"name" : "ヘルス向上 IV"
+				},
 				"matchlockgun" : {
 					"description" : "初期の銃火器である「火縄銃」をアンロックする",
 					"name" : "火縄銃"
 				},
-				"quarterblockdyer" : {
-					"description" : "階段の構築に使える、色つきクォーターブロックの染色師による生産をアンロックする",
-					"name" : "色つきクォーターブロック"
+				"newworldmeal" : {
+					"description" : "「新世界の料理」をアンロックする",
+					"name" : "新世界の料理"
 				},
-				"quarterblocksplittingstump" : {
-					"description" : "階段の構築に使える、木の色のクォーターブロックの薪割り台での生産をアンロックする",
-					"name" : "木製クォーターブロック"
+				"olivefarmer" : {
+					"description" : "より凝った食事を作るための原料となる「オリーブ」の栽培農家をアンロックする",
+					"name" : "オリーブ栽培"
 				},
-				"quarterblockstonemason" : {
-					"description" : "階段の構築に使える「クォーターブロック（灰色）」の石工による生産をアンロックする",
-					"name" : "クォーターブロック（灰色）"
+				"papyrus" : {
+					"description" : "「パピルス」の生産をアンロックする",
+					"name" : "パピルス"
+				},
+				"porcelain" : {
+					"description" : "「磁器」の生産をアンロックする",
+					"name" : "磁器"
+				},
+				"printingpress" : {
+					"description" : "書物を容易に普及できるようになる「印刷機」をアンロックする",
+					"name" : "印刷機"
+				},
+				"ricefarmer" : {
+					"description" : "「米」の栽培をアンロックする",
+					"name" : "米栽培"
 				},
 				"sciencebagadvanced" : {
 					"description" : "高度な研究に用いられる「先進的科学の袋」をアンロックする",
@@ -332,6 +537,20 @@
 					"description" : "軍事研究に用いられる「軍事科学の袋」をアンロックする",
 					"name" : "軍事科学の袋"
 				},
+				"silkwormfarmer" : {
+					"description" : "蚕の飼育をアンロックする",
+					"name" : "養蚕"
+				},
+				"spinningwheel" : {
+					"fareast" : {
+						"description" : "「糸車」をアンロックする",
+						"name" : "糸車"
+					},
+					"newworld" : {
+						"description" : "「糸車」をアンロックする",
+						"name" : "糸車"
+					}
+				},
 				"splittingstump" : {
 					"description" : "「薪割り台」をアンロック。 作業台より素早く薪を作るのに使える。",
 					"name" : "薪割り台"
@@ -340,17 +559,53 @@
 					"description" : "様々なレンガ類を生産する「石工」をアンロックする",
 					"name" : "石工の作業台"
 				},
+				"sugarcane" : {
+					"description" : "「サトウキビ」の栽培をアンロックする",
+					"name" : "サトウキビ"
+				},
 				"tailorshop" : {
 					"description" : "亜麻からリネンを作り出す「仕立て屋」をアンロックする",
 					"name" : "仕立て屋"
+				},
+				"teafarmer" : {
+					"description" : "「茶」の栽培をアンロックする",
+					"name" : "茶"
 				},
 				"technologisttable" : {
 					"description" : "サイエンスバッグを作成する「技術者」をアンロックする",
 					"name" : "技術者"
 				},
+				"trader" : {
+					"description" : "他のコロニーとの交易を加速する「交易商」NPCをアンロックする",
+					"name" : "交易商"
+				},
+				"vanilla" : {
+					"description" : "「バニラ」の栽培をアンロックする",
+					"name" : "バニラ"
+				},
+				"watergatherer" : {
+					"description" : "水場からバケツに水を汲む「水汲み」をアンロックする",
+					"name" : "水汲み"
+				},
+				"waterpump" : {
+					"description" : "遅いペースながらどこでも取水できる「給水ポンプ」をアンロックする",
+					"name" : "給水ポンプ"
+				},
+				"waxtablet" : {
+					"description" : "贅沢品「ワックスタブレット」をアンロックする",
+					"name" : "ワックスタブレット"
+				},
 				"wheatfarming" : {
-					"description" : "発展したコロニー向けのより複雑な食料生産手段。 「小麦農家」「石臼」と「オーブン」をアンロックする。 400個の小麦の種を付与する。",
+					"description" : "発展したコロニー向けのより複雑な食料生産手段。 「小麦農家」「石臼」「オーブン」をアンロックする。",
 					"name" : "パン生産"
+				},
+				"wintercoat" : {
+					"description" : "「冬物コート」の生産をアンロックする",
+					"name" : "冬物コート"
+				},
+				"writer" : {
+					"description" : "娯楽のための本を生み出す「作家」をアンロックする",
+					"name" : "執筆"
 				}
 			}
 		},
@@ -361,42 +616,55 @@
 				"header" : "エリアメニュー",
 				"remove" : "エリアを解除"
 			},
-			"banner" : {
-				"button" : "入植者を募集する",
-				"description" : "入植者には1日に5単位の食料とベッドが必要です。募集には50単位の食料を消費します。",
-				"gotoscience" : "科学メニューへ",
-				"header" : "コロニー管理",
-				"resetbutton" : "コロニーをリセットする",
-				"resettooltipa" : "",
-				"resettooltipb" : "この操作により、全ての入植者が死亡し、仕事場が解除されます。",
-				"resettooltipc" : "また所持品と備蓄品は初期状態に戻ります。"
-			},
 			"death" : {
 				"description" : "あなたは死にました",
 				"respawn" : "リスポーン"
 			},
 			"inventory" : {
+				"availableamount" : "備蓄品内に: {0}",
+				"calorievalue" : "1個あたり {0} カロリー",
 				"craftingstockpile" : "作成 & 備蓄品",
-				"foodvalue" : "食料としての価値:",
-				"madeintooltip" : "_MISSING_Made in:",
+				"distributionhappyperitem" : "1個あたりの幸福度: {0}",
+				"distributionpercolonist" : "入植者1人あたりの1日必要量: {0}",
+				"distributionplanned" : "想定される幸福度上昇量: {0}",
+				"distributionreached" : "支給率: {0}%",
+				"distributiontotal" : "合計の1日必要量: {0}",
+				"happinessvalue" : "幸福度基準値:",
+				"happy" : {
+					"header" : "幸福度"
+				},
+				"madeintooltip" : "これで作成:",
+				"noactivecolony" : "アクティブなコロニーがありません！",
 				"science" : {
 					"available" : "研究可能",
+					"cancel" : "キャンセル",
 					"completed" : "研究済み",
+					"completeunlock" : "完了",
+					"conditioncolonistcount" : "入植者",
+					"conditioncolonistcountdescription" : "必要入植者数",
+					"conditionhappiness" : "必要幸福度",
+					"conditionhappinessdescription" : "最低限必要な合計幸福度",
+					"conditionscientistrequires" : "必要: {0}",
 					"dependencies" : "必要技術:",
 					"header" : "科学",
-					"iterations" : "研究サイクル: {0}周（全{1}周中）",
-					"placelab" : "研究所を設置し、科学者を雇ってください",
-					"requirements" : "研究サイクル1周分の必要物:",
-					"researchactive" : "現在の研究: {0}",
-					"researchselected" : "研究を選択",
+					"recipeunlocknpcgroup" : "{0} をアンロック",
+					"recipeunlockoriginjob" : "{0} にて作成",
+					"recipeunlockoriginplayer" : "プレイヤーにより作成",
+					"recipeunlocks" : "このレシピによってアンロック:",
+					"startscience" : "研究を開始",
 					"unavailable" : "研究不可能"
 				},
-				"searchfieldplaceholder" : "_MISSING_Enter search filter...",
+				"searchfieldplaceholder" : "検索フィルタを入力...",
 				"tooltip" : {
 					"and" : "と",
 					"instockpile" : "（備蓄品内に）",
-					"needs" : "必要: "
+					"needs" : "必要: ",
+					"nothing" : "_MISSING_Nothing"
 				}
+			},
+			"itemselector" : {
+				"description" : "利用するアイテムの種類をえらんでください",
+				"header" : "アイテム選択"
 			},
 			"limits" : {
 				"description" : "入植者は備蓄品の中が指定した量になるまで作業を続けます。",
@@ -406,21 +674,29 @@
 				},
 				"pipliz" : {
 					"baker" : "焼成の上限",
+					"beekeeper" : "養蜂家の上限",
 					"bloomeryjob" : "塊鉄炉の上限",
+					"chickenfarmer" : "養鶏農家の上限",
+					"cook" : "料理人の上限",
 					"crafter" : "作成の上限",
 					"dyer" : "染色の上限",
 					"fineryforgejob" : "精製炉の上限",
 					"grinder" : "粉挽きの上限",
 					"gunsmithjob" : "鉄砲鍛冶の上限",
-					"kilnjob" : "炭焼き窯の上限",
+					"kilnjob" : "焼成窯の上限",
 					"merchant" : "買い物の上限",
 					"metalsmithjob" : "鍛冶の上限",
 					"minter" : "鋳造の上限",
+					"printingpress" : "印刷機の上限",
 					"smelter" : "製錬の上限",
 					"stonemason" : "石材加工の上限",
 					"tailor" : "仕立ての上限",
 					"technologist" : "技術者の上限",
-					"woodcutter" : "製材の上限"
+					"watergatherer" : "水汲みの上限",
+					"waterpump" : "給水ポンプの上限",
+					"wheelspinner" : "糸車の上限",
+					"woodcutter" : "製材の上限",
+					"writer" : "作家の上限"
 				}
 			},
 			"quickstart" : {
@@ -450,9 +726,16 @@
 			"tooljob" : {
 				"alkanetfarmer" : "アルカネット農家",
 				"alkanetfarmertool" : "アルカネット農家ツール",
-				"alkanetfarmertooltip" : "必要: アルカネットの種\n草か土の上に設置する",
+				"bananafarmb" : "_MISSING_For... bananas",
+				"bananafarmer" : "バナナ農家",
+				"bananatool" : "バナナ農家ツール",
+				"barleya" : "主に飼料として使う",
+				"barleyfarmer" : "大麦農家",
+				"barleyfarmertool" : "大麦農家ツール",
+				"beekeeper" : "養蜂家",
+				"beekeepera" : "いくつかの贅沢品に必要不可欠",
+				"beekeepertool" : "養蜂家ツール",
 				"berrya" : "素早く簡単な食料源、まずはこれ！",
-				"berryb" : "必要: ベリーの種\n草か土の上に設置する",
 				"berryfarmer" : "ベリー農家",
 				"berryfarmertool" : "ベリー農家ツール",
 				"bow" : "弓",
@@ -460,12 +743,30 @@
 				"buildera" : "指定したエリアをブロックで埋める",
 				"builderarea" : "建設人足作業エリア",
 				"builderb" : "ブロックの種類を選択するメニューが開いた後、そのブロックで埋めるエリアを指定します",
+				"cabbagea" : "一部の豪勢な料理に不可欠",
+				"cabbagefarmer" : "キャベツ農家",
+				"cabbagefarmertool" : "キャベツ農家ツール",
+				"cacaob" : "カカオ",
+				"cacaofarmer" : "カカオ農家",
+				"cacaofarmertool" : "カカオ農家ツール",
+				"cassavab" : "熱帯の炭水化物源、フフの調理に使う",
+				"cassavafarmer" : "キャッサバ農家",
+				"cassavatool" : "キャッサバ農家ツール",
+				"chickenfarmer" : "養鶏農家",
+				"chickenfarmera" : "_MISSING_Chickens create eggs, meat and feathers",
+				"chickenfarmertool" : "養鶏農家ツール",
+				"cofeeb" : "コーヒー豆",
+				"coffeebeanfarmer" : "コーヒー豆農家",
+				"coffeebeanfarmertool" : "コーヒー豆農家ツール",
 				"construction" : "土木建築",
 				"construction1" : "人足たちを作業に従事させよう",
 				"construction2" : "作業の種類を選択するための別メニューが開きます",
 				"constructionjob" : "人足",
 				"constructionjoba" : "人足を雇う",
 				"constructionjobb" : "土木建築エリアに隣接して設置してください",
+				"cottonb" : "_MISSING_Made into towels",
+				"cottonfarmer" : "木綿農家",
+				"cottontool" : "木綿農家ツール",
 				"coversarea" : "既にあるエリアと重なる",
 				"crossbow" : "クロスボウ",
 				"crossbowtooltip" : "ダメージ: 300 HP\n射程: 25ブロック\nリロード速度: 8秒",
@@ -477,12 +778,23 @@
 				"diggerspeciala" : "エリア内の特定のブロックのみを撤去する",
 				"diggerspecialarea" : "特殊掘削人足作業エリア",
 				"diggerspecialb" : "選択したブロックを撤去するエリアを指定してください",
-				"flaxb" : "必要: 亜麻仁\n草か土の上に設置する",
+				"fareast" : "極東",
+				"fareasta" : "極東地域に固有の仕事",
+				"fareastb" : "先に科学「植民地化」を研究してください",
+				"fisherman" : "漁師",
+				"fishermana" : "_MISSING_Will fish for... fishes",
+				"fishermantool" : "漁師ツール",
+				"fishfarmer" : "養殖業者",
+				"fishfarmera" : "漁師より効率が悪いが、付近に水場を必要としない",
+				"fishfarmertool" : "養殖業者ツール",
 				"flaxfarmer" : "亜麻農家",
 				"flaxfarmertool" : "亜麻農家ツール",
 				"flaxherbfarming" : "亜麻＆ハーブ類",
 				"flaxherbfarminga" : "亜麻とハーブの農家",
 				"flaxherbfarmingb" : "農家の種類を選択するための別メニューが開きます",
+				"food" : "食料",
+				"food1" : "食料生産",
+				"food2" : "入植者が飢えるのを防ぐ様々な手段",
 				"forester" : "林業者",
 				"forestera" : "木を植えて伐採する",
 				"foresterb" : "必要: 苗木と斧\n草か土の上に設置する",
@@ -495,7 +807,6 @@
 				"header" : "コマンドツール",
 				"hollyhockfarmer" : "タチアオイ農家",
 				"hollyhockfarmertool" : "タチアオイ農家ツール",
-				"hollyhockfarmertooltip" : "必要: タチアオイの種\n草か土の上に設置する",
 				"insidearea" : "エリア内には設置不可能",
 				"jobbowday" : "昼間担当弓兵",
 				"jobbownight" : "夜間担当弓兵",
@@ -512,28 +823,58 @@
 				"minerb" : "必要: つるはし\n穴を掘り、鉱石か石ブロック（暗色）の上に設置する",
 				"minertool" : "鉱員ツール",
 				"missingscience" : "<color=red>先に「{0}」をアンロックする必要があります。</color>",
+				"newworld" : "新世界",
+				"newworlda" : "新世界地域に固有の仕事",
+				"newworldb" : "先に科学「植民地化」を研究してください",
 				"noconstructionareanearby" : "付近に土木建築エリアがない",
-				"notarable" : "耕作不可能",
+				"notarable" : "耕作に適していない",
 				"notflat" : "平らではない",
-				"notool" : "ツールが選択されていない",
+				"nowaternearby" : "付近に水場がない",
 				"occupiedblocks" : "ブロックが既に存在している",
-				"selectitem" : "対象とするアイテムの種類を選択してください",
+				"olivefarmer" : "オリーブ農家",
+				"olivefarmera" : "_MISSING_Creates olive trees and gathers olives",
+				"olivefarmertool" : "オリーブ農家ツール",
+				"papyrusb" : "パピルス",
+				"papyrusfarmer" : "パピルス農家",
+				"papyrustool" : "パピルス農家ツール",
+				"potatob" : "新世界の炭水化物源",
+				"potatofarmer" : "ジャガイモ農家",
+				"potatotool" : "ジャガイモ農家",
+				"requiresarable" : "耕作に適した土地が必要",
+				"riceb" : "極東の炭水化物源",
+				"ricefarmer" : "米農家",
+				"ricefarmertool" : "米農家ツール",
+				"silkwormb" : "_MISSING_Used to make silk eventually",
+				"silkwormfarmer" : "養蚕農家",
+				"silkwormfarmertool" : "養蚕農家ツール",
 				"slinger" : "スリング",
 				"slingertooltip" : "ダメージ: 50 HP\n射程: 12ブロック\nリロード速度: 3秒",
+				"sugarcaneb" : "サトウキビ",
+				"sugarcanefarmer" : "サトウキビ農家",
+				"sugarcanetool" : "サトウキビ農家ツール",
+				"teafarmer" : "茶農家",
+				"teafarmerb" : "_MISSING_Produces leaves which lead to tea",
+				"teafarmertool" : "茶農家ツール",
+				"tomatob" : "トマト",
+				"tomatofarmer" : "トマト農家",
+				"tomatotool" : "トマト農家ツール",
 				"toolarge" : "大きすぎる",
 				"toonarrow" : "植樹には狭すぎる",
 				"toosmall" : "小さすぎる",
-				"wheatb" : "必要: 小麦の種\n草か土の上に設置する",
+				"tropics" : "熱帯",
+				"tropicsa" : "熱帯地域に固有の仕事",
+				"tropicsb" : "先に科学「植民地化」を研究してください",
+				"vanillab" : "バニラ",
+				"vanillafarmer" : "バニラ農家",
+				"vanillafarmertool" : "バニラ農家ツール",
+				"wateradjacent" : "仕事の位置に隣接した水場が必要",
+				"watergatherer" : "水汲み",
+				"watergatherera" : "水場でバケツに水を汲む",
+				"watergatherertool" : "水汲みツール",
 				"wheatfarmer" : "小麦農家",
 				"wheatfarmertool" : "小麦農家ツール",
 				"wolfsbanefarmer" : "トリカブト農家",
-				"wolfsbanefarmertool" : "トリカブト農家ツール",
-				"wolfsbanefarmertooltip" : "必要: トリカブトの種\n草か土の上に設置する"
-			},
-			"worldsettings" : {
-				"daymonsters" : "昼間のモンスター総量",
-				"header" : "ワールド設定",
-				"nightmonsters" : "夜間のモンスター総量"
+				"wolfsbanefarmertool" : "トリカブト農家ツール"
 			}
 		},
 		"quickstart" : {
@@ -542,15 +883,15 @@
 				"header" : "基本事項",
 				"text1" : "バナーはあなたのコロニーの中心です。 「2」を押して立ててください。 入植者を募集するにはバナーを右クリックします。  バナーツールはモンスターがスポーンするエリアを赤でハイライトします。",
 				"text2" : "入植者を募集するためには、食料とベッドが必要です。 入植者が生き残るには、食事をする必要があります。 十分な食料を用意することを忘れないでください、さもないと彼らは飢えてしまいます！",
-				"text3" : "ベッドを作るには「I」を押してください。 あなたは画面下部にあるスロット内のアイテムのみを使ってクラフトできます。 入植者は備蓄品にあるアイテムのみ使用可能です。 彼らは木箱を使って備蓄品にアクセスします。",
+				"text3" : "_MISSING_Press \"I\" to craft a bed. Items on the left can be crafted by clicking on them. Colonists can only use items in your stockpile. They access the stockpile using crates.",
 				"text4" : "夜間には、モンスターがあなたのコロニーを襲ってきます！ コマンドツールを使って、衛兵を配置しましょう。 「1」を押し、クリックして衛兵を選択します。 「R」を押すことで、ブロックを回転できます。"
 			},
 			"page2" : {
-				"description" : "入植者を募集し維持するには食料が必要です！",
-				"header" : "食料生産",
-				"text1" : "ベリー農家を作るため、コマンドツール（「1」を押す）を使いましょう。 草ブロックを右クリックし、仕事を選択して農民用のエリアを作ります。 左クリックで仕事の種類を変えられます。",
-				"text2" : "パン作りは複雑ですが、効率的な食料生産手段です。 まずは小麦畑を作りましょう。 2晩越すと小麦は十分に育ち、農民が収穫を始めます。",
-				"text3" : "その後、石臼とオーブンを設置してさらに2人雇う必要があります。 石臼は小麦を小麦粉に変えるのに使います。 パン屋はパンを焼くのにオーブンを使います。"
+				"description" : "_MISSING_Bread and games are essential to grow your colony",
+				"header" : "_MISSING_Food & Happiness",
+				"text1" : "_MISSING_For every colonist you recruit, total unhappiness grows. Distribute happiness items to keep your colonists happy. Adjust the sliders in the happiness menu (press \"I\") to select which items you want to distribute.",
+				"text2" : "_MISSING_Changing the food items you distribute changes the amount of calories your colonists receive. Less than 1000 calories causes starvation; less than 2000 lowers happiness; more than 2000 increases happiness.",
+				"text3" : "_MISSING_Colonists will visit the grocer or banner once a day to get their daily happiness items. Large colonies will need multiple grocers to reduce the walking distance."
 			},
 			"page3" : {
 				"description" : "夜間に迫り来るモンスターたちからコロニーを防衛せよ！",
@@ -575,7 +916,24 @@
 				"text2" : "研究対象を選択し、科学者にアンロックさせましょう。 科学者は研究を完了するため、一定回数のサイクルで作業を繰り返します。 研究の必要素材は各サイクル毎に消費されます。",
 				"text3" : "より高度な研究にはサイエンスバッグが必要になります。 サイエンスバッグを作成するため、技術者を雇いましょう。 使って空になったバッグは複数回の再利用が可能です。",
 				"text4" : "複数の科学者が一緒になって作業することで、研究の進行速度を速めることができます。 さらなる科学者を雇うために、もっと研究所を設置しましょう！"
+			},
+			"page6" : {
+				"description" : "_MISSING_Explore the world and start new colonies!",
+				"header" : "_MISSING_Colonization",
+				"text1" : "_MISSING_There are three biomes with unique content to the west, south and east of the central spawn location. The sun rises in the east. Unlock the glider for quicker exploration.",
+				"text2" : "_MISSING_Unlock and craft the Colony Starter Kit to colonize new biomes. You need to carry it with you to be able to start a new colony!",
+				"text3" : "_MISSING_The other biomes allow you to craft new happiness items. Use the trader to exchange items with other colonies."
 			}
+		},
+		"sciencebiome" : {
+			"arctic" : "北極",
+			"currentarea" : "現在のエリア: {0}",
+			"fareast" : "極東",
+			"newworld" : "新世界",
+			"noarea" : "_MISSING_None",
+			"none" : "_MISSING_None",
+			"oldworld" : "旧世界",
+			"tropics" : "熱帯"
 		},
 		"settingsmenu" : {
 			"audio" : "オーディオ",
@@ -641,7 +999,7 @@
 				"fxaalow" : "FXAA 低",
 				"fxaamedium" : "FXAA 中",
 				"lightscattering" : "光散乱",
-				"particleeffects" : "_MISSING_Particle effects",
+				"particleeffects" : "パーティクルエフェクト",
 				"preset" : "プリセット",
 				"ragdoll" : "ラグドールの表示量",
 				"resolution" : "解像度",
@@ -664,30 +1022,43 @@
 			}
 		},
 		"singleplayermenu" : {
-			"colonyname" : "コロニー名",
-			"daymonsters" : "昼にもモンスターがスポーン",
+			"alreadyexists" : "ワールドは既に存在します！",
+			"cancel" : "キャンセル",
+			"confirmdelete" : "削除の確認",
+			"confirmdeletedescription" : "あなたはこのワールドを含むフォルダを削除しようとしています。\nどうしますか？",
 			"delete" : "削除",
-			"doubledmonsters" : "モンスターの数が2倍",
+			"hostingoptions" : "ホスティング設定",
 			"load" : "ロード",
 			"loadworld" : "ワールドをロード",
 			"newworld" : "新規ワールド",
+			"password" : "パスワード",
 			"play" : "プレイ",
-			"spawnmonsters" : "モンスターがスポーンする",
+			"servername" : "サーバー名",
+			"serverport" : "サーバーのポート",
 			"worlddate" : "日付",
-			"worldname" : "ワールド名"
+			"worldname" : "名称",
+			"worldname_long" : "ワールド名",
+			"worldseed" : "ワールドの種"
 		}
 	},
 	"types" : {
 		"adobe" : "アドベ",
 		"alkanet" : "アルカネット",
 		"alkanetstage1" : "アルカネットの種",
+		"banana" : "バナナ",
 		"banner" : "バナー",
 		"bannertool" : "バナーツール",
+		"barley" : "大麦",
+		"barleystage1" : "大麦の種",
 		"bed" : "ベッド",
+		"beehive" : "ミツバチの巣箱",
+		"beeswax" : "蜜蝋",
 		"berry" : "ベリー",
 		"berrybush" : "ベリーの種",
 		"blackplanks" : "磨いた板（黒）",
 		"bloomery" : "塊鉄炉",
+		"boilingwater" : "熱湯",
+		"book" : "本",
 		"bow" : "弓",
 		"bowstring" : "弓弦",
 		"bread" : "パン",
@@ -703,15 +1074,26 @@
 		"bronzeingot" : "青銅インゴット",
 		"bronzepickaxe" : "青銅のつるはし",
 		"bronzeplate" : "青銅のプレート",
+		"bucketempty" : "空のバケツ",
+		"bucketwater" : "水入りバケツ",
+		"cabbage" : "キャベツ",
+		"cabbagestage1" : "キャベツの種",
+		"cacao" : "カカオ",
+		"cake" : "ケーキ",
+		"candle" : "蝋燭",
 		"carpetblue" : "カーペット（青）",
 		"carpetred" : "カーペット（赤）",
 		"carpetwhite" : "カーペット（白）",
 		"carpetyellow" : "カーペット（黄）",
+		"cassava" : "キャッサバ",
 		"charcoal" : "木炭",
 		"cherryblossom" : "桜の花",
 		"cherrysapling" : "桜の苗木",
+		"cherrysaplingsmall" : "小さな桜の苗木",
+		"chickencoop" : "鶏小屋",
+		"chickenmeat" : "鶏肉",
+		"chocolate" : "チョコレート",
 		"clay" : "粘土",
-		"clothing" : "衣類",
 		"coalore" : "石炭",
 		"coatedplanks" : "磨いた板",
 		"cobblestoneblack" : "丸石（黒）",
@@ -719,38 +1101,66 @@
 		"cobblestonebrown" : "丸石（茶色）",
 		"cobblestonegrey" : "丸石（灰色）",
 		"cobblestonered" : "丸石（赤）",
+		"coffee" : "コーヒー",
+		"coffeebeans" : "コーヒー豆",
 		"cokes" : "コークス",
+		"colonykit" : "コロニースターターキット",
 		"commandtool" : "コマンドツール",
 		"constructionjob" : "人足",
+		"cookedfish" : "焼き魚",
+		"cookies" : "クッキー",
 		"copper" : "銅",
 		"coppernails" : "銅の釘",
 		"copperparts" : "銅の金具",
 		"coppertools" : "銅のツール",
+		"cotton" : "木綿",
+		"cottonraw" : "未加工の木綿",
+		"cottonthread" : "木綿糸",
+		"cottontowel" : "木綿のタオル",
 		"crate" : "木箱",
 		"cratebread" : "パン入りの木箱",
 		"crossbow" : "クロスボウ",
 		"crossbowbolt" : "クロスボウのボルト",
 		"crystal" : "水晶",
 		"darkstone" : "石ブロック（暗色）",
+		"diamond" : "ダイヤモンド",
+		"diamondnecklace" : "ダイヤモンドネックレス",
 		"dirt" : "土",
 		"dyertable" : "染色師のテーブル",
+		"egg" : "卵",
+		"feather" : "羽毛",
 		"fineryforge" : "精製炉",
 		"firewood" : "薪",
+		"fishermanjob" : "漁師",
+		"fishmeal" : "魚粉",
+		"fishtank" : "魚用水槽",
 		"flax" : "亜麻",
 		"flaxstage1" : "亜麻仁",
 		"flour" : "小麦粉",
+		"foofoo" : "フフ",
+		"fur" : "毛皮",
 		"furnace" : "炉",
 		"galenalead" : "方鉛鉱（鉛豊富）",
 		"galenasilver" : "方鉛鉱（銀豊富）",
+		"glider" : "グライダー",
 		"goldcoin" : "金貨",
 		"goldingot" : "金インゴット",
 		"goldore" : "金鉱石",
-		"grass" : "草",
-		"grassrainforest" : "草（熱帯雨林）",
-		"grasssavanna" : "草（サバンナ）",
-		"grasstaiga" : "草（タイガ）",
-		"grasstemperate" : "草（温帯）",
-		"grasstundra" : "草（ツンドラ）",
+		"grasscolddry" : "草（乾燥/低温/温帯）",
+		"grasscoldmid" : "草（低温/温帯）",
+		"grasscoldwet" : "草（湿潤/低温/温帯）",
+		"grasshotdriest" : "草（超乾燥/高温/温帯）",
+		"grasshotdry" : "草（乾燥/高温/温帯）",
+		"grasshotmid" : "草（高温/温帯）",
+		"grasshotwet" : "草（湿潤/高温/温帯）",
+		"grasstaigadry" : "草（乾燥/タイガ）",
+		"grasstaigawet" : "草（湿潤/タイガ）",
+		"grasstropicdriest" : "草（超乾燥/熱帯）",
+		"grasstropicdry" : "草（乾燥/熱帯）",
+		"grasstropicmid" : "草（熱帯）",
+		"grasstropicwet" : "草（湿潤/熱帯）",
+		"grasstundradry" : "草（乾燥/ツンドラ）",
+		"grasstundrawet" : "草（湿潤/ツンドラ）",
 		"grindstone" : "石臼",
 		"guardbowdayjob" : "昼間担当弓兵",
 		"guardbownightjob" : "夜間担当弓兵",
@@ -766,13 +1176,17 @@
 		"gypsum" : "石膏",
 		"hollyhock" : "タチアオイ",
 		"hollyhockstage1" : "タチアオイの種",
+		"honey" : "蜂蜜",
+		"ink" : "インク",
 		"ironblock" : "鉄ブロック",
 		"ironingot" : "鉄インゴット",
 		"ironore" : "鉄鉱石",
 		"ironrivet" : "鉄のリベット",
 		"ironsword" : "鉄の剣",
 		"ironwrought" : "鍛鉄",
-		"kiln" : "炭焼き窯",
+		"jewelry" : "宝石",
+		"kaolinite" : "カオリナイト",
+		"kiln" : "焼成窯",
 		"lanternblue" : "ランタン（青）",
 		"lanterncyan" : "ランタン（シアン）",
 		"lanterngreen" : "ランタン（縁）",
@@ -783,20 +1197,35 @@
 		"lanternyellow" : "ランタン",
 		"lead" : "鉛",
 		"leadbullet" : "鉛玉",
-		"leaves" : "葉",
+		"leavesfallorange" : "葉（橙）",
+		"leavesfallred" : "葉（赤）",
+		"leavesfallyellow" : "葉（黄）",
+		"leavesgreendark" : "葉（暗色）",
+		"leavesgreenlight" : "葉（明色）",
 		"leavestaiga" : "葉（タイガ）",
 		"leavestemperate" : "葉（温帯）",
 		"linen" : "リネン",
 		"linenbag" : "リネンの袋",
 		"linenpouch" : "リネンの小袋",
-		"linseedoil" : "亜麻仁油",
-		"log" : "丸太",
+		"lobster" : "ロブスター",
+		"lobsterprepared" : "ロブスター料理",
 		"logtaiga" : "丸太（タイガ）",
 		"logtemperate" : "丸太（温帯）",
+		"luxurymeal" : "豪華な食事",
 		"matchlockgun" : "火縄銃",
 		"minerjob" : "鉱員",
 		"mint" : "造幣局",
+		"newworldmeal" : "新世界の食事",
+		"npcshop" : "食料雑貨店",
+		"olive" : "オリーブ",
+		"oliveleaves" : "オリーブの葉",
+		"oliveoil" : "オリーブ油",
+		"olivesapling" : "オリーブの苗木",
 		"oven" : "オーブン",
+		"paperempty" : "白紙",
+		"papertext" : "文章の書かれた紙",
+		"papyrus" : "パピルス",
+		"perpetualstew" : "パーペチュアルシチュー",
 		"planks" : "板",
 		"planksblue" : "板（青）",
 		"plankscyan" : "板（シアン）",
@@ -806,14 +1235,25 @@
 		"planksred" : "板（赤）",
 		"planksyellow" : "板（黄）",
 		"plasterblock" : "石膏ブロック",
+		"porcelainbiscuit" : "素焼きの磁器",
+		"porcelainglazed" : "磁器",
+		"porcelainraw" : "焼成前の磁器",
+		"potato" : "ジャガイモ",
+		"printingpress" : "印刷機",
 		"quarterblockblack" : "クォーターブロック（黒）",
 		"quarterblockbrowndark" : "クォーターブロック（焦茶色）",
 		"quarterblockbrownlight" : "クォーターブロック（薄茶色）",
 		"quarterblockgrey" : "クォーターブロック（灰色）",
 		"quarterblockwhite" : "クォーターブロック（白）",
+		"rawbeeswax" : "未加工の蜜蝋",
+		"rawfish" : "生魚",
 		"redplanks" : "磨いた板（赤）",
+		"rice" : "米",
+		"ricemeal" : "米飯の食事",
 		"salpeter" : "硝石",
 		"sand" : "砂",
+		"saplingfallorange" : "秋の苗木",
+		"saplingtaiga" : "タイガの苗木",
 		"sappling" : "苗木",
 		"sciencebagadvanced" : "先進的科学の袋",
 		"sciencebagbasic" : "基礎的科学の袋",
@@ -822,10 +1262,15 @@
 		"sciencebagmilitary" : "軍事科学の袋",
 		"sciencelab" : "研究所",
 		"shop" : "店",
+		"silk" : "絹",
+		"silkpillow" : "絹の枕",
+		"silkthread" : "絹糸",
+		"silkwormcocoon" : "蚕の繭",
 		"silveringot" : "銀インゴット",
 		"sling" : "スリング",
 		"slingbullet" : "スリングの石弾",
 		"snow" : "雪",
+		"spinningwheel" : "糸車",
 		"splittingstump" : "薪割り台",
 		"steelingot" : "鋼鉄インゴット",
 		"steelparts" : "鋼鉄の金具",
@@ -835,89 +1280,129 @@
 		"stonebricksbrown" : "石レンガ（茶色）",
 		"stonebrickswhite" : "石レンガ（白）",
 		"stonemasonworkbench" : "石工の作業台",
+		"stove" : "コンロ",
 		"straw" : "藁",
+		"sugar" : "砂糖",
 		"tailorshop" : "仕立て屋",
+		"tea" : "茶",
+		"tealeavesprocessed" : "加工した茶葉",
+		"tealeavesprocesseddried" : "乾燥した茶葉",
+		"tealeavesraw" : "未加工の茶葉",
 		"technologisttable" : "技術者のテーブル",
 		"tin" : "錫",
+		"tomato" : "トマト",
 		"torch" : "松明",
+		"trader" : "交易商",
+		"undershirt" : "肌着",
+		"vanilla" : "バニラ",
 		"water" : "水",
+		"watergathererjob" : "水汲み",
+		"waterpump" : "給水ポンプ",
+		"waxtablet" : "ワックスタブレット",
 		"wheat" : "小麦",
 		"wheatstage1" : "小麦の種",
+		"wintercoat" : "冬物コート",
 		"wolfsbane" : "トリカブト",
 		"wolfsbanestage1" : "トリカブトの種",
-		"workbench" : "作業台"
+		"woodcoating" : "木工塗料",
+		"workbench" : "作業台",
+		"writerdesk" : "作家の机"
 	},
 	"typeuses" : {
 		"adobe" : "【あどべ】\n《Adobe》\nお金持ちのための土",
 		"alkanet" : "【あるかねっと】\n《Alkanet》\nリアルでは、赤い染料の原料",
+		"banana" : "【ばなな】\n《Banana》\nウラン鉱山での3分間に相当する放射性物質",
+		"barley" : "【おおむぎ】\n《Barley》\n鶏たちは大好き",
 		"bed" : "【べっど】\n《Bed》\nネジ（Screw）ではなく、藁（Straw）が必要",
+		"beeswax" : "【みつろう】\n《Beeswax》\nねばねば",
 		"berry" : "【べりー】\n《Berry》\n毒なんてないよ",
 		"berrybush" : "【べりーのたね】\n《Berry Seed》\n入植者が植えれば、お手軽な食料源に",
 		"blackplanks" : "【みがいたいた（くろ）】\n《Coated Black Planks》\nとっても燃えやすい",
 		"bloomery" : "【かいてつろ】\n《Bloomery》\n鉄と方鉛鉱の製錬には木炭を使用",
+		"boilingwater" : "【ねっとう】\n《Boiling Water》\nワケあって沸騰したまま",
 		"bow" : "【ゆみ】\n《Bow》\n衛兵には必要！",
 		"bowstring" : "【ゆづる / ゆみづる】\n《Bowstring》\nピーン",
 		"bread" : "【ぱん】\n《Bread》\n美味しい上に、傷まで治る",
 		"bricks" : "【しょうせいれんが】\n《Bricks》\n所詮はオランダのゲームさ",
-		"bronzeanvil" : "【せいどうのかなとこ】\n《Bronze Anvil》\nブロック形のユニークな金床",
+		"bronzeanvil" : "【せいどうのかなとこ】\n《Bronze Anvil》\nもはやブロック状ではないのだ！",
 		"bronzearrow" : "【せいどうのや】\n《Bronze Arrow》\nモンスターから否定的なレビューが殺到。 衛兵たちは好きだけどね！",
 		"bronzeaxe" : "【せいどうのおの】\n《Bronze Axe》\n林業者には必要！",
 		"bronzecoin" : "【せいどうか】\n《Bronze Coin》\n金製ほどの価値は無い",
 		"bronzeingot" : "【せいどういんごっと】\n《Bronze Ingot》\nぶろんずちゅよい",
 		"bronzepickaxe" : "【せいどうのつるはし】\n《Bronze Pickaxe》\n鉱員を割り当てるにはコマンドツールを使おう。 つるはしを使って鉱石や石を永久に掘り出してくれるぞ！",
 		"bronzeplate" : "【せいどうのぷれーと】\n《Bronze Plate》\n大抵の食べ物同様、緑色に変わる前に使おう！",
+		"bucketempty" : "【からのばけつ】\n《Empty Bucket》\n厳密に言えば空気で満たされたバケツ",
+		"bucketwater" : "【みずいりばけつ】\n《Water Bucket》\nいいえ、私たちはあなたが友人の鉱山を水浸しにできるようにするつもりはありません",
+		"cabbage" : "【きゃべつ】\n《Cabbage》\n入植者たちはついに青野菜を食べるようになった",
+		"cacao" : "【かかお】\n《Cacao》\nフェアトレードだといいのですが",
+		"cake" : "【けーき】\n《Cake》\nミームは死んだ",
 		"carpetblue" : "【かーぺっと（あお）】\n《Blue Carpet》\nお客さんがレッドカーペットに見合わないときに",
 		"carpetred" : "【かーぺっと（あか）】\n《Red Carpet》\nベリージュースをこぼしてもへっちゃら！",
 		"carpetwhite" : "【かーぺっと（しろ）】\n《White Carpet》\n染色師に染めてもらおう",
 		"carpetyellow" : "【かーぺっと（き）】\n《Yellow Carpet》\nふっかふか！",
+		"cassava" : "【きゃっさば】\n《Cassava》\nシアン化物含有",
 		"charcoal" : "【もくたん】\n《Charcoal》\nシアン化物を吸収",
 		"cherryblossom" : "【さくらのはな】\n《Cherry Blossom》\nゲーム中で一番ピンク色",
-		"cherrysapling" : "【さくらのなえぎ】\n《Cherry Sapling》\n装飾用アイテム。コイン10枚を払ってアンロックしよう",
+		"cherrysapling" : "【さくらのなえぎ】\n《Cherry Sapling》\n装飾用アイテム。 コイン10枚を払ってアンロックしよう",
+		"cherrysaplingsmall" : "【ちいさなさくらのなえぎ】\n《Small Cherry Sapling》\n装飾用アイテム。 コイン5枚を払ってアンロックしよう",
+		"chickenmeat" : "【とりにく】\n《Chicken Meat》\nこの食材を作る過程で動物たちが傷つけられた",
+		"chocolate" : "【ちょこれーと】\n《Chocolate》\n古代の神々は、これを人類に分け与えたことで罰せられた",
 		"clay" : "【ねんど】\n《Clay》\n触ってごらん",
-		"clothing" : "【いるい】\n《Clothing》\n着られるように見えるかもしれないが、キミにはムリだ",
 		"coalore" : "【せきたん】\n《Coal Ore》\n警告: 気候変動を引き起こすかも",
 		"coatedplanks" : "【みがいたいた】\n《Coated Planks》\nピッカピカ！",
+		"coffee" : "【こーひー】\n《Coffee》\n締め切り前の追い込みに有用",
+		"coffeebeans" : "【コーヒー豆】\n《Coffee Beans》\nカフェインは向精神薬です",
 		"cokes" : "【こーくす】\n《Cokes》\nこれを作って燃やすことが、あなたの健康や環境に悪影響を及ぼすことは全くありません、たぶんね",
+		"colonykit" : "【ころにーすたーたーきっと】\n《Colony Starter Kit》\nさらなるコロニーの建設に必要",
+		"cookedfish" : "【やきざかな】\n《Cooked Fish》\n泳力は劇的に低下",
+		"cookies" : "【くっきー】\n《Cookies》\n名前はオランダ語の単語'Koekje'に由来する",
 		"copper" : "【どう】\n《Copper》\n製錬の必要がなくってラクチン！",
 		"coppernails" : "【どうのくぎ】\n《Copper Nails》\n木片を繋ぎあわせる画期的な手法",
 		"copperparts" : "【どうのかなぐ】\n《Copper Parts》\n金属は全てを改善する",
 		"coppertools" : "【どうのつーる】\n《Copper Tools》\n道具がなけりゃパンだって切れないよ",
+		"cotton" : "【もめん】\n《Cotton》\nドイツ語では「木の羊毛」と呼ばれる",
+		"cottonraw" : "【みかこうのもめん】\n《Raw Cotton》\n加工が必要",
+		"cottonthread" : "【もめんいと】\n《Cotton Thread》\nキミはコイツが大量に必要になるだろう",
 		"crate" : "【きばこ】\n《Crate》\n倉庫が必要ならコレだ！",
 		"cratebread" : "【ぱんいりのきばこ】\n《Bread Crate》\n保管または受け渡し用に。 この箱を入植者が使うことはありません！",
 		"crossbow" : "【くろすぼう】\n《Crossbow》\n強力石弓の弟分",
 		"crossbowbolt" : "【くろすぼうのぼると】\n《Crossbow Bolt》\nより丈夫で、より良く、より速く、より強い",
 		"crystal" : "【すいしょう】\n《Crystal》\n銀が豊富な方鉛鉱を製錬するときに生成される",
+		"diamond" : "【だいやもんど】\n《Diamond》\n「なんでこんなにハードなんだ！」かつての木炭、ダイヤモンドに言った",
 		"dirt" : "【つち】\n《Dirt》\n泥んこ！",
 		"dyertable" : "【せんしょくしのてーぶる】\n《Dyer's Table》\n伝説的な塗装技術",
+		"egg" : "【たまご】\n《Egg》\n鶏より少なくとも3億年以上前から存在している",
+		"feather" : "【うもう】\n《Feather》\nハンマーと同じくらい速く地面に落ちる、月面上では",
 		"fineryforge" : "【せいせいろ】\n《Finery Forge》\n鋼鉄と金のインゴットを作るには、コークスが必要",
 		"firewood" : "【まき / たきぎ】\n《Firewood》\n基本的な燃料",
+		"fishmeal" : "【ぎょふん】\n《Fishmeal》\nキャベツの肥料に最適",
 		"flax" : "【あま】\n《Flax》\n帝国の色",
 		"flaxstage1" : "【あまに】\n《Flax seeds》\n地面に植えてみよう",
 		"flour" : "【こむぎこ】\n《Flour》\n入植者がオーブンでパンを焼いてくれるよ",
+		"foofoo" : "【ふふ】\n《Foofoo》\n/ fufu / fufuo / foufou",
+		"fur" : "【けがわ】\n《Fur》\nふかふか",
 		"furnace" : "【ろ】\n《Furnace》\n青銅インゴットとレンガを作るには、薪を燃料として使う",
 		"galenalead" : "【ほうえんこう（なまりほうふ）】\n《Galena (Lead rich)》\n鉛がたっぷり",
 		"galenasilver" : "【ほうえんこう（ぎんほうふ）】\n《Galena (Silver rich)》\n銀がたっぷり",
-		"goldcoin" : "【きんか】\n《Gold Coin》\n片面に王様の肖像がある",
+		"glider" : "【ぐらいだー】\n《Glider》\nスペースを押して上昇、'W'を押して前進！",
+		"goldcoin" : "【きんか】\n《Gold Coin》\n片面に統治者の肖像がある",
 		"goldingot" : "【きんいんごっと】\n《Gold Ingot》\nかつては紙幣の価値を担保するのに使われた",
 		"goldore" : "【きんこうせき】\n《Gold Ore》\nなくしちゃダメだよ",
-		"grassrainforest" : "【くさ（ねったいうりん）】\n《Grass Rainforest》\nこの芝はとても青い",
-		"grasssavanna" : "【くさ（さばんな）】\n《Grass Savanna》\n隣の芝生は青い",
-		"grasstaiga" : "【くさ（たいが）】\n《Grass Taiga》\nワシの芝生に入るな！",
-		"grasstemperate" : "【くさ（おんたい）】\n《Grass Temperate》\nワシの芝生に入るな！",
-		"grasstundra" : "【くさ（つんどら）】\n《Grass Tundra》\nワシの芝生に入るな！",
 		"grindstone" : "【いしうす】\n《Grindstone》\n小麦を挽いて小麦粉にするのに使う",
 		"gunpowder" : "【かやく】\n《Gunpowder》\n取り扱い注意！",
 		"gunpowderpouch" : "【かやくぶくろ】\n《Gunpowder Pouch》\n火縄銃を撃つのに使われる",
 		"gunsmithshop" : "【てっぽうかじのこうぼう】\n《Gunsmith Shop》\n銃と弾丸を作る",
-		"gypsum" : "【せっこう】\n《Gypsum》\n装飾用アイテム。マイクロトランザクションにすべきだった",
-		"hollyhock" : "【たちあおい】\n《Hollyhock》\nリアルでは便秘薬になる。ゲームではそうじゃないけど。今はね。",
+		"gypsum" : "【せっこう】\n《Gypsum》\n装飾用アイテム。 マイクロトランザクションにすべきだった",
+		"hollyhock" : "【たちあおい】\n《Hollyhock》\nリアルでは便秘薬になる。 ゲームではそうじゃないけど。 今はね。",
+		"ink" : "【いんく】\n《Ink》\n気をつけて、ネッド、気をつけて！",
 		"ironblock" : "【てつぶろっく】\n《Iron Block》\n足の上に落とさないようにね",
 		"ironingot" : "【てついんごっと】\n《Iron Ingot》\nあいあんもっとちゅよい",
 		"ironore" : "【てっこうせき】\n《Iron Ore》\n鉄鉱石でできた鉄のつるはしで掘り出される",
 		"ironrivet" : "【てつのりべっと】\n《Iron Rivet》\nダクトテープより強力",
 		"ironsword" : "【てつのけん】\n《Iron Sword》\n鋭い切っ先で奴らを貫け！",
 		"ironwrought" : "【たんてつ】\n《Wrought Iron》\n「鍛えられた」ってのは「加工された」ってことさ",
-		"kiln" : "【すみやきがま】\n《Kiln》\n木の板を木炭に変える",
+		"kaolinite" : "【かおりないと】\n《Kaolinite》\n磁器を作るのに使う",
+		"kiln" : "【しょうせいがま】\n《Kiln》\n木の板を木炭に変える",
 		"lanterncyan" : "【らんたん（しあん）】\n《Cyan Lantern》\n未来は今ここに",
 		"lanterngreen" : "【らんたん（みどり）】\n《Green Lantern》\nコロニーをエコフレンドリーにする",
 		"lanternorange" : "【らんたん（だいだい）】\n《Orange Lantern》\nとっても暖かみがある",
@@ -930,25 +1415,48 @@
 		"linen" : "【りねん】\n《Linen》\nランジェリーとはリネンで作られた下着のことです",
 		"linenbag" : "【りねんのふくろ】\n《Linen Bag》\nプラスチックの袋より良い",
 		"linenpouch" : "【りねんのこぶくろ】\n《Linen Pouch》\n火薬の保管に",
-		"linseedoil" : "【あまにゆ / あまにあぶら】\n《Linseed Oil》\nいろんなものをピカピカに",
+		"lobster" : "【ろぶすたー】\n《Lobster》\nステータスとヒエラルキーばかり気にしている",
+		"lobsterprepared" : "【ろぶすたーりょうり】\n《Cooked Lobster》\n今はそれほど支配的ではない",
 		"logtaiga" : "【まるた（たいが）】\n《Log Taiga》\nこっちの方がちょっと寒いね",
 		"logtemperate" : "【まるた（おんたい）】\n《Log Temperate》\n出力ログみたいだけど違うよ",
+		"luxurymeal" : "【ごうかなしょくじ】\n《Luxury Meal》\n文明の証",
 		"matchlockgun" : "【ひなわじゅう】\n《Matchlock Gun》\n鉛玉を撃つには火薬袋が必要",
 		"mint" : "【ぞうへいきょく】\n《Mint》\n王様の許可があるなら偽造じゃないよ",
+		"newworldmeal" : "【しんせかいのしょくじ】\n《New World Meal》\n全てのファーストフードの祖、なんやて・・・知らんけど",
+		"npcshop" : "【しょくりょうざっかてん】\n《Grocery Store》\n入植者は食料と幸福アイテムを求めて1日1回ここを訪ねる",
+		"olive" : "【おりーぶ】\n《Olive》\nオリーブの枝で育つ",
 		"oven" : "【おーぶん】\n《Oven》\n小麦粉をパンにするのに、薪を燃料として使う",
+		"paperempty" : "【はくし】\n《Empty Paper》\n多くの可能性を秘める",
+		"papertext" : "【ぶんしょうのかかれたかみ】\n《Paper With Text》\n未だシェイクスピアに及ばず",
+		"papyrus" : "【ぱぴるす】\n《Papyrus》\n未来の紙",
+		"perpetualstew" : "【ぱーぺちゅあるしちゅー】\n《Perpetual Stew》\n正に中世的",
 		"planks" : "【いた】\n《Planks》\n体積が丸太のときの4倍になったよ！",
 		"plasterblock" : "【せっこうぶろっく】\n《Plaster Block》\n現代的な外観用に",
+		"porcelainbiscuit" : "【すやきのじき】\n《Porcelain Biscuit》\n釉薬を塗って本焼きしないと",
+		"porcelainglazed" : "【じき】\n《Glazed Porcelain》\nできた！",
+		"porcelainraw" : "【しょうせいまえのじき】\n《Raw Porcelain》\n素焼きしないと",
+		"potato" : "【じゃがいも】\n《Potato》\nシチューの中で、煮て、すりつぶして、つっついて",
+		"printingpress" : "【いんさつき】\n《Printing Press》\n自由を称えよ",
+		"rawbeeswax" : "【みかこうのみつろう】\n《Raw Beeswax》\n美味しそうに見える",
+		"rawfish" : "【なまざかな】\n《Raw Fish》\n#オーガニック #ホルモン無添加 #牧草肥育",
 		"redplanks" : "【みがいたいた（あか）】\n《Coated Red Planks》\n食料としての価値はないけど、とっても美味しいよ",
+		"rice" : "【こめ】\n《Rice》\n人類が消費する全カロリーの20％以上を供給",
+		"ricemeal" : "【べいはんのしょくじ】\n《Rice Meal》\nZunの好物",
 		"salpeter" : "【しょうせき】\n《Salpeter》\nスパイスじゃないよ",
 		"sand" : "【すな】\n《Sand》\nヘビとはあまりよく混ざりません",
+		"saplingfallorange" : "【あきのなえぎ】\n《Fall Sapling》\nオレンジ色の未来の木",
+		"saplingtaiga" : "【たいがのなえぎ】\n《Taiga Sapling》\n少し違う木",
 		"sappling" : "【なえぎ】\n《Sapling》\nいずれ木になる",
 		"sciencebagadvanced" : "【せんしんてきかがくのふくろ】\n《Advanced Science Bag》\n高度な科学に必要",
 		"sciencebagbasic" : "【きそてきかがくのふくろ】\n《Basic Science Bag》\n基礎的な科学の研究に必要",
 		"sciencebagcolony" : "【ころにーかがくのふくろ】\n《Colony Science Bag》\nコロニー関係の科学に必要",
 		"sciencebaglife" : "【せいめいかがくのふくろ】\n《Life Science Bag》\n健康や生命に関する科学の研究に必要",
 		"sciencebagmilitary" : "【ぐんじかがくのふくろ】\n《Military Science Bag》\n戦闘に関する科学の研究に必要",
-		"sciencelab" : "【けんきゅうじょ】\n《Science Lab》\n科学者が新技術を解禁するのに使う。複数の科学者が協力して研究することも可能！",
+		"sciencelab" : "【けんきゅうじょ】\n《Science Lab》\n科学者が新技術を解禁するのに使う。 複数の科学者が協力して研究することも可能！",
 		"shop" : "【みせ】\n《Shop》\n販売専門、買取はいたしておりません",
+		"silk" : "【きぬ】\n《Silk》\nとってもなめらか",
+		"silkthread" : "【きぬいと/けんし】\n《Silk Thread》\n傷みやすい",
+		"silkwormcocoon" : "【かいこのまゆ】\n《Silkworm Cocoon》\nとってもちっちゃい",
 		"silveringot" : "【ぎんいんごっと】\n《Silver Ingot》\n鉛よりちょっぴり値が張る",
 		"sling" : "【すりんぐ】\n《Sling》\n気をつけろ、ゴリアテよ",
 		"slingbullet" : "【すりんぐのせきだん】\n《Sling Bullet》\n単なる小さな石、ホントに",
@@ -958,15 +1466,23 @@
 		"steelparts" : "【こうてつのかなぐ】\n《Steel Parts》\nインゴットのままじゃ扱いにくくて仕方がない",
 		"stonebricks" : "【いしれんが】\n《Stone Bricks》\n非常の際にはコブシで打ち抜け！",
 		"stonemasonworkbench" : "【いしくのさぎょうだい】\n《Stonemason's Workbench》\n50種類のレンガを作る",
+		"stove" : "【こんろ】\n《Stove》\n辺り一帯を美味しそうな匂いで満たすのに使用",
 		"straw" : "【わら】\n《Straw》\nベッドに必要、小麦栽培の副産物",
-		"tailorshop" : "【したてや】\n《Tailor Shop》\nリネン、カーペット、衣類や袋が作れる",
+		"sugar" : "【さとう】\n《Sugar》\n肥満、糖尿、その他の健康問題を引き起こしやすい",
+		"tailorshop" : "【したてや】\n《Tailor Shop》\n全ての人に仕立て服を！",
 		"technologisttable" : "【ぎじゅつしゃのてーぶる】\n《Technologist's Table》\nサイエンスバッグを作る",
 		"tin" : "【すず】\n《Tin》\nちょっぴり毒性あり",
+		"tomato" : "【とまと】\n《Tomato》\n果物か、それとも野菜か？",
 		"torch" : "【たいまつ】\n《Torch》\n光あれ！",
-		"water" : "【みず】\n《Water》\nこれはインベントリにはないはず！",
+		"trader" : "【こうえきしょう】\n《Trader》\n意外なことに交易に関わっている",
+		"vanilla" : "【ばにら】\n《Vanilla》\n美味",
+		"water" : "【みず】\n《Water》\n撒いたら全てが水浸しに",
+		"waterpump" : "【きゅうすいぽんぷ】\n《Water Pump》\n水汲み職同様だが、仕事量で劣り、水場は必要ない",
+		"waxtablet" : "【わっくすたぶれっと】\n《Wax Tablet》\nヘッドホンジャックはない",
 		"wheat" : "【こむぎ】\n《Wheat》\n入植者が石臼を使って小麦粉に変える",
-		"wheatstage1" : "【こむぎのたね】\n《Wheat seeds》\n未来のパン",
+		"wheatstage1" : "【こむぎのたね】\n《Wheat Seeds》\n未来のパン",
 		"wolfsbane" : "【とりかぶと】\n《Wolfsbane》\nオオカミがコロニーを襲うのを防ぐ",
-		"workbench" : "【さぎょうだい】\n《Workbench》\n職人を雇用する。あなたのために作業します！"
+		"workbench" : "【さぎょうだい】\n《Workbench》\n職人を雇用する。あなたのために作業します！",
+		"writerdesk" : "【さっかのつくえ】\n《Writer's Desk》\n極めて人間工学的"
 	}
 }

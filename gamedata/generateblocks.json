@@ -1,0 +1,300 @@
+[
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#2a2aac",
+		"typeName" : "minerjob"
+	},
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#8cc066",
+		"typeName" : "watergathererjob"
+	},
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#4264d4",
+		"typeName" : "fishermanjob"
+	},
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#474747",
+		"typeName" : "guardslingerdayjob"
+	},
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#474747",
+		"typeName" : "guardslingernightjob"
+	},
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#c3621b",
+		"typeName" : "guardbowdayjob"
+	},
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#c3621b",
+		"typeName" : "guardbownightjob"
+	},
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#919dba",
+		"typeName" : "guardcrossbowdayjob"
+	},
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#919dba",
+		"typeName" : "guardcrossbownightjob"
+	},
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#e5e960",
+		"typeName" : "guardmatchlockdayjob"
+	},
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#e5e960",
+		"typeName" : "guardmatchlocknightjob"
+	},
+	{
+		"generateType" : "jobOutline",
+		"outlineColor" : "#911616",
+		"typeName" : "constructionjob"
+	},
+	{
+		"baseType" : {
+			"categories" : ["job"],
+			"icon" : "./textures/icons/waterpump.png",
+			"mesh" : "./meshes/waterpump.ply",
+			"needsBase" : true,
+			"onPlaceAudio" : "woodPlace",
+			"onRemoveAudio" : "woodDeleteLight",
+			"sideall" : "neutral"
+		},
+		"generateType" : "rotateBlock",
+		"typeName" : "waterpump"
+	},
+	{
+		"baseType" : {
+			"categories" : ["job"],
+			"icon" : "./textures/icons/writerdesk.png",
+			"mesh" : "./meshes/writerdesk.ply",
+			"needsBase" : true,
+			"onPlaceAudio" : "woodPlace",
+			"onRemoveAudio" : "woodDeleteLight",
+			"sideall" : "neutral"
+		},
+		"generateType" : "rotateBlock",
+		"typeName" : "writerdesk"
+	},
+	{
+		"baseType" : {
+			"categories" : ["job"],
+			"icon" : "./textures/icons/bronzeanvil.png",
+			"mesh" : "./meshes/bronzeanvil.ply",
+			"needsBase" : true,
+			"onPlaceAudio" : "stonePlace",
+			"onRemoveAudio" : "stoneDelete",
+			"sideall" : "neutral"
+		},
+		"generateType" : "rotateBlock",
+		"typeName" : "bronzeanvil"
+	},
+	{
+		"baseType" : {
+			"categories" : ["decorative","stairs"],
+			"colliders" : {"boxes":[{"max":[0.5,0,0.5],"min":[0,-0.5,-0.5]}]},
+			"customData" : {"colors":["#ff0000->#242321"]},
+			"icon" : "./textures/icons/quarterblockblack.png",
+			"isSolid" : false,
+			"maxStackSize" : 60,
+			"mesh" : "./meshes/quarterblockx+.ply",
+			"needsBase" : true,
+			"onPlaceAudio" : "woodPlace",
+			"onRemoveAudio" : "woodDeleteLight",
+			"sideall" : "neutral"
+		},
+		"generateType" : "rotateBlock",
+		"typeName" : "quarterblockblack"
+	},
+	{
+		"baseType" : {
+			"categories" : ["decorative","stairs"],
+			"colliders" : {"boxes":[{"max":[0.5,0,0.5],"min":[0,-0.5,-0.5]}]},
+			"customData" : {"colors":["#ff0000->#332106"]},
+			"icon" : "./textures/icons/quarterblockbrowndark.png",
+			"isSolid" : false,
+			"maxStackSize" : 60,
+			"mesh" : "./meshes/quarterblockx+.ply",
+			"needsBase" : true,
+			"onPlaceAudio" : "woodPlace",
+			"onRemoveAudio" : "woodDeleteLight",
+			"sideall" : "neutral"
+		},
+		"generateType" : "rotateBlock",
+		"typeName" : "quarterblockbrowndark"
+	},
+	{
+		"baseType" : {
+			"categories" : ["decorative","stairs"],
+			"colliders" : {"boxes":[{"max":[0.5,0,0.5],"min":[0,-0.5,-0.5]}]},
+			"customData" : {"colors":["#ff0000->#917451"]},
+			"icon" : "./textures/icons/quarterblockbrownlight.png",
+			"isSolid" : false,
+			"maxStackSize" : 60,
+			"mesh" : "./meshes/quarterblockx+.ply",
+			"needsBase" : true,
+			"onPlaceAudio" : "woodPlace",
+			"onRemoveAudio" : "woodDeleteLight",
+			"sideall" : "neutral"
+		},
+		"generateType" : "rotateBlock",
+		"typeName" : "quarterblockbrownlight"
+	},
+	{
+		"baseType" : {
+			"categories" : ["decorative","stairs"],
+			"colliders" : {"boxes":[{"max":[0.5,0,0.5],"min":[0,-0.5,-0.5]}]},
+			"customData" : {"colors":["#ff0000->#636363"]},
+			"icon" : "./textures/icons/quarterblockgrey.png",
+			"isSolid" : false,
+			"maxStackSize" : 60,
+			"mesh" : "./meshes/quarterblockx+.ply",
+			"needsBase" : true,
+			"onPlaceAudio" : "woodPlace",
+			"onRemoveAudio" : "woodDeleteLight",
+			"sideall" : "neutral"
+		},
+		"generateType" : "rotateBlock",
+		"typeName" : "quarterblockgrey"
+	},
+	{
+		"baseType" : {
+			"categories" : ["decorative","stairs"],
+			"colliders" : {"boxes":[{"max":[0.5,0,0.5],"min":[0,-0.5,-0.5]}]},
+			"customData" : {"colors":["#ff0000->#c7c7c7"]},
+			"icon" : "./textures/icons/quarterblockwhite.png",
+			"isSolid" : false,
+			"maxStackSize" : 60,
+			"mesh" : "./meshes/quarterblockx+.ply",
+			"needsBase" : true,
+			"onPlaceAudio" : "woodPlace",
+			"onRemoveAudio" : "woodDeleteLight",
+			"sideall" : "neutral"
+		},
+		"generateType" : "rotateBlock",
+		"typeName" : "quarterblockwhite"
+	},
+	{
+		"baseType" : {
+			"categories" : ["essential"],
+			"colliders" : {"boxes":[{"max":[0.5,0.1,0.5],"min":[-0.5,-0.5,-0.5]},{"max":[-0.4,0.5,0.5],"min":[-0.5,-0.5,-0.5]}],"collidePlayer":false},
+			"customData" : {"colors":["#ff0000->#542909","#00ff00->#e5e5e6","#0000ff->#9b7a3f"]},
+			"icon" : "./textures/icons/bed.png",
+			"isSolid" : false,
+			"mesh" : "./meshes/bedx+.ply",
+			"needsBase" : true,
+			"onPlaceAudio" : "woodPlace",
+			"onRemoveAudio" : "woodDeleteLight",
+			"sideall" : "neutral"
+		},
+		"generateType" : "rotateBlock",
+		"typeName" : "bed"
+	},
+	{
+		"baseType" : {
+			"colliders" : {"boxes":[{"max":[0.5,0.1,0.5],"min":[-0.5,-0.5,-0.5]}],"collidePlayer":false},
+			"mesh" : "./meshes/bedendx+.ply",
+			"parentType" : "bed"
+		},
+		"generateType" : "rotateBlock",
+		"typeName" : "bedend"
+	},
+	{
+		"baseType" : {
+			"categories" : ["job"],
+			"destructionTime" : 800,
+			"icon" : "gamedata/textures/icons/furnace.png",
+			"onPlaceAudio" : "stonePlace",
+			"onRemoveAudio" : "stoneDelete",
+			"sideall" : "furnaceside"
+		},
+		"generateType" : "rotateBlock",
+		"litTypeCustomData" : {
+			"torches" : {"a":{"color":"#c3872e","intensity":2.5,"offsetx":0,"offsety":0.55,"offsetz":0,"range":8,"volume":0.3},"b":{"color":"#c3872e","intensity":1,"offsetx":0.55,"offsety":-0.25,"offsetz":0,"range":8,"volume":0.2}}
+		},
+		"sideFrontLit" : "furnacelitfront",
+		"sideFrontUnlit" : "furnaceunlitfront",
+		"sideTopLit" : "furnacelittop",
+		"sideTopUnlit" : "furnaceunlittop",
+		"typeName" : "furnace"
+	},
+	{
+		"baseType" : {
+			"categories" : ["job"],
+			"destructionTime" : 800,
+			"icon" : "gamedata/textures/icons/oven.png",
+			"onPlaceAudio" : "stonePlace",
+			"onRemoveAudio" : "stoneDelete",
+			"sideall" : "stonebricks"
+		},
+		"generateType" : "rotateBlock",
+		"litTypeCustomData" : {
+			"torches" : {"a":{"color":"#c3872e","intensity":2,"offsetx":0.55,"offsety":-0.25,"offsetz":0,"range":8,"volume":0.2}}
+		},
+		"sideFrontLit" : "ovenlitfront",
+		"sideFrontUnlit" : "ovenunlitfront",
+		"sideTopLit" : "stonebricks",
+		"sideTopUnlit" : "stonebricks",
+		"typeName" : "oven"
+	},
+	{
+		"baseType" : {
+			"categories" : ["job"],
+			"destructionTime" : 800,
+			"icon" : "gamedata/textures/icons/bloomery.png",
+			"onPlaceAudio" : "stonePlace",
+			"onRemoveAudio" : "stoneDelete",
+			"sideall" : "bricks"
+		},
+		"generateType" : "rotateBlock",
+		"litTypeCustomData" : {
+			"torches" : {"a":{"color":"#c3872e","intensity":2,"offsetx":0.55,"offsety":-0.25,"offsetz":0,"range":8,"volume":0.2}}
+		},
+		"sideFrontLit" : "bloomerylit",
+		"sideFrontUnlit" : "bloomery",
+		"sideTopLit" : "bricks",
+		"sideTopUnlit" : "bricks",
+		"typeName" : "bloomery"
+	},
+	{
+		"baseType" : {
+			"categories" : ["job"],
+			"destructionTime" : 1500,
+			"icon" : "gamedata/textures/icons/fineryforge.png",
+			"onPlaceAudio" : "stonePlace",
+			"onRemoveAudio" : "stoneDelete",
+			"sideall" : "ironblock"
+		},
+		"generateType" : "rotateBlock",
+		"litTypeCustomData" : {
+			"torches" : {"a":{"color":"#c3872e","intensity":2,"offsetx":0.55,"offsety":-0.25,"offsetz":0,"range":8,"volume":0.2}}
+		},
+		"sideFrontLit" : "fineryforgelit",
+		"sideFrontUnlit" : "fineryforge",
+		"sideTopLit" : "ironblock",
+		"sideTopUnlit" : "ironblock",
+		"typeName" : "fineryforge"
+	},
+	{
+		"baseType" : {
+			"categories" : ["job"],
+			"destructionTime" : 800,
+			"icon" : "gamedata/textures/icons/kiln.png",
+			"onPlaceAudio" : "dirtPlace",
+			"onRemoveAudio" : "grassDelete",
+			"sideall" : "dirt"
+		},
+		"generateType" : "rotateBlock",
+		"sideFrontUnlit" : "kiln",
+		"typeName" : "kiln"
+	}
+]

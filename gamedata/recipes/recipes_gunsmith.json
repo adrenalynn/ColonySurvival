@@ -1,0 +1,46 @@
+[
+	{
+		"defaultLimit" : 25,
+		"name" : "pipliz.gunsmith.leadbullet",
+		"requires" : [
+			{"type":"lead"}
+		],
+		"results" : [
+			{"amount":3,"type":"leadbullet"}
+		]
+	},
+	{
+		"defaultLimit" : 25,
+		"name" : "pipliz.gunsmith.gunpowder",
+		"requires" : [
+			{"type":"salpeter"},
+			{"type":"charcoal"}
+		],
+		"results" : [
+			{"type":"gunpowder"}
+		]
+	},
+	{
+		"defaultLimit" : 25,
+		"name" : "pipliz.gunsmith.gunpowderpouch",
+		"requires" : [
+			{"type":"gunpowder"},
+			{"amount":3,"type":"linenpouch"}
+		],
+		"results" : [
+			{"amount":3,"type":"gunpowderpouch"}
+		]
+	},
+	{
+		"defaultLimit" : 10,
+		"name" : "pipliz.gunsmith.matchlockgun",
+		"requires" : [
+			{"amount":3,"type":"steelparts"},
+			{"type":"coatedplanks"},
+			{"type":"copperparts"}
+		],
+		"results" : [
+			{"type":"matchlockgun"}
+		]
+	}
+]

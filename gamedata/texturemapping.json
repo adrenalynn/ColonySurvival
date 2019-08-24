@@ -47,11 +47,6 @@
 		"height" : "bricks",
 		"normal" : "bricks"
 	},
-	"bronzeanvil" : {
-		"albedo" : "bronzeanvil",
-		"height" : "bronzeanvil",
-		"normal" : "bronzeanvil"
-	},
 	"carpet" : {
 		"albedo" : "carpet",
 		"height" : "carpet",
@@ -82,6 +77,11 @@
 		"albedo" : "crate",
 		"height" : "crate",
 		"normal" : "crate"
+	},
+	"cratebread" : {
+		"albedo" : "cratebread",
+		"height" : "cratebread",
+		"normal" : "cratebread"
 	},
 	"dirt" : {
 		"albedo" : "dirt",
@@ -136,35 +136,10 @@
 		"height" : "furnaceUnlitTop",
 		"normal" : "furnaceUnlitTop"
 	},
-	"grassrainforest" : {
-		"albedo" : "grassRainforest",
+	"grassgeneric" : {
+		"albedo" : "grassGeneric",
 		"height" : "grassGeneric",
 		"normal" : "grassGeneric"
-	},
-	"grasssavanna" : {
-		"albedo" : "grassSavanna",
-		"height" : "grassGeneric",
-		"normal" : "grassGeneric"
-	},
-	"grasstaiga" : {
-		"albedo" : "grassTaiga",
-		"height" : "grassGeneric",
-		"normal" : "grassGeneric"
-	},
-	"grasstemperate" : {
-		"albedo" : "grassTemperate",
-		"height" : "grassGeneric",
-		"normal" : "grassGeneric"
-	},
-	"grasstundra" : {
-		"albedo" : "grassTundra",
-		"height" : "grassGeneric",
-		"normal" : "grassGeneric"
-	},
-	"grindstone" : {
-		"albedo" : "grindstone",
-		"height" : "grindstone",
-		"normal" : "grindstone"
 	},
 	"gunsmithshop" : {
 		"albedo" : "gunsmithshop",
@@ -185,6 +160,11 @@
 		"albedo" : "oreCopper",
 		"height" : "oreCopper",
 		"normal" : "oreCopper"
+	},
+	"infinitediamond" : {
+		"albedo" : "oreDiamond",
+		"height" : "oreDiamond",
+		"normal" : "oreDiamond"
 	},
 	"infinitegalena" : {
 		"albedo" : "oreGalena",
@@ -226,6 +206,11 @@
 		"height" : "ironblock",
 		"normal" : "ironblock"
 	},
+	"kaolinite" : {
+		"albedo" : "kaolinite",
+		"height" : "kaolinite",
+		"normal" : "kaolinite"
+	},
 	"kiln" : {
 		"albedo" : "kiln",
 		"height" : "kiln",
@@ -235,6 +220,11 @@
 		"albedo" : "lantern",
 		"emissive" : "lantern",
 		"height" : "lantern"
+	},
+	"leavesgeneric" : {
+		"albedo" : "leavesgeneric",
+		"height" : "leavesTemperate",
+		"normal" : "leavesTemperate"
 	},
 	"leavestaiga" : {
 		"albedo" : "leavesTaiga",
@@ -256,11 +246,6 @@
 		"height" : "log",
 		"normal" : "log"
 	},
-	"lumberarea" : {
-		"albedo" : "lumberArea",
-		"height" : "grassGeneric",
-		"normal" : "grassGeneric"
-	},
 	"mint" : {
 		"albedo" : "mint",
 		"height" : "mint",
@@ -268,6 +253,11 @@
 	},
 	"neutral" : {
 		"albedo" : "neutral"
+	},
+	"oliveleaves" : {
+		"albedo" : "oliveleaves",
+		"height" : "berrybush",
+		"normal" : "berrybush"
 	},
 	"outlinedblock" : {
 		"albedo" : "neutral",
